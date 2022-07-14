@@ -4,7 +4,6 @@ import Date from '../components/Date';
 import Layout, { siteTitle } from '../components/Layout';
 import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
-import MusicPlayerSlider from "../components/audioplayer";
 
 export async function getStaticProps() {
     const allPostsData = getSortedPostsData();
