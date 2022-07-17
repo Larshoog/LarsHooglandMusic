@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="711e0122-736f-485f-b960-bfa0a949bb1b" name="Changes" comment="Initial Commit" />
+    <list default="true" id="711e0122-736f-485f-b960-bfa0a949bb1b" name="Changes" comment="fixed [id].js]">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/bands.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/bands.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/bio.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/bio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/120804381_10219868580118925_8415270147863095024_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/utils.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/utils.module.css" afterDir="false" />
+    </list>
     <list id="81835202-5839-4fa4-a46f-45c7f251ca18" name="Changes by matthijs" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +44,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="ts.external.directory.path" value="C:\Users\larsh\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\213.6777.52\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -70,6 +83,8 @@
       <workItem from="1657752234747" duration="469000" />
       <workItem from="1657778062713" duration="191000" />
       <workItem from="1657778265814" duration="33000" />
+      <workItem from="1657778300835" duration="3300000" />
+      <workItem from="1657885992332" duration="8761000" />
     </task>
     <task id="LOCAL-00001" summary="Update met Matthijs">
       <created>1657749863341</created>
@@ -92,7 +107,63 @@
       <option name="project" value="LOCAL" />
       <updated>1657752501906</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed .idea">
+      <created>1657778471324</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657778471324</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Removed audioplayer dependency">
+      <created>1657778612338</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657778612338</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Removed audioplayer dependency v2">
+      <created>1657778736831</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657778736831</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Repair for deployment">
+      <created>1657779748603</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657779748603</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Repair for deployment v2">
+      <created>1657779847037</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657779847037</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fixed [id].js]">
+      <created>1657780548924</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657780548924</updated>
+    </task>
+    <task id="LOCAL-00010" summary="New [id] system">
+      <created>1657781166978</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657781166978</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fixed [id].js]">
+      <created>1657781274947</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657781274947</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +196,14 @@
     <MESSAGE value="Update met Matthijs" />
     <MESSAGE value="Update 2 met Matthijs" />
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Fixed .idea" />
+    <MESSAGE value="Removed audioplayer dependency" />
+    <MESSAGE value="Removed audioplayer dependency v2" />
+    <MESSAGE value="Repair for deployment" />
+    <MESSAGE value="Repair for deployment v2" />
+    <MESSAGE value="New [id] system" />
+    <MESSAGE value="fixed [id].js]" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed [id].js]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

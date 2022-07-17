@@ -14,7 +14,7 @@ export const siteTitle = 'Lars Hoogland Music';
 
 const coverImgs = {
     '/': '/images/IMG_6515.jpg',
-    '/bands': '/images/IMG_9503.jpg',
+    '/bands': '/images/IMG_6424.jpg',
     '/bio': '/images/IMG_9127.jpg',
 }
 
@@ -25,9 +25,13 @@ const Layout = ({ children, home }) => {
             <Head>
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
-            <Header imageUrl={coverImgs[router.pathname] ?? '/images/IMG_6515.jpg'}/>
+            {home ? (
+            <Header home imageUrl={coverImgs[router.pathname] ?? '/images/IMG_6515.jpg'}/>
+                ) : (
+                <Header imageUrl={coverImgs[router.pathname] ?? '/images/IMG_6515.jpg'}/>
+                )}
             <main>{children}</main>
-            <Button variant="contained" color="secondary">Click me</Button>
+            {/*<Button variant="contained" color="secondary">Click me</Button>*/}
         </div>
     )
 }
