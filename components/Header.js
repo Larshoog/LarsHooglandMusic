@@ -7,7 +7,7 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import {Fab, Grow} from "@mui/material";
 
-const Header = ({imageUrl, name, home}) => {
+const Header = ({imageUrl, name, pagetype}) => {
     const handleScroll = () => {
         window.scrollBy({
             top: window.innerHeight,
@@ -32,25 +32,20 @@ const Header = ({imageUrl, name, home}) => {
                 <NavItem text="Contact" href={"contact"}/>
 
             </div>
-            {home ? (
+            {pagetype === 'home' ? (
                 <>
                     <div className={utilStyles.logocontainer}>
                         <div className={utilStyles.logo}>
                             <h1 className={utilStyles.headingXl}>Lars<br/>Hoogland<br/>Music</h1>
                         </div>
                     </div>
-                    <div className={utilStyles.scrollarrow}>
-                        <Grow in timeout={1500}>
-                            <Fab onClick={handleScroll} color="primary">
-                                <KeyboardArrowDownIcon fontSize="large"/>
-                            </Fab>
-                        </Grow>
-                    </div>
                 </>
-            ) : (
+            ) : (<div/>)
+            }{
+            pagetype === 'bands' ? (
                 <>
                     <div className={utilStyles.logocontainer}>
-                            <h1 className={utilStyles.headingXl}>Between the Lines</h1>
+                        <h1 className={utilStyles.headingXl}>Between the Lines</h1>
                     </div>
                     <div className={utilStyles.leftarrow}>
                         <Grow in timeout={1500}>
@@ -67,7 +62,15 @@ const Header = ({imageUrl, name, home}) => {
                         </Grow>
                     </div>
                 </>
+            ) : (<div/>
             )}
+            <div className={utilStyles.scrollarrow}>
+                <Grow in timeout={1500}>
+                    <Fab onClick={handleScroll} color="primary">
+                        <KeyboardArrowDownIcon fontSize="large"/>
+                    </Fab>
+                </Grow>
+            </div>
         </header>
     )
 }

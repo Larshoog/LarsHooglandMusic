@@ -16,20 +16,19 @@ const coverImgs = {
     '/': '/images/IMG_6515.jpg',
     '/bands': '/images/IMG_6424.jpg',
     '/bio': '/images/IMG_9127.jpg',
+    '/shows': '/images/achter.jpg',
+    '/store': '/images/IMG_9686.jpg',
+    '/contact': '/images/IMG_9462.jpg',
 }
 
-const Layout = ({ children, home }) => {
+const Layout = ({ children, pagetype }) => {
     const router = useRouter()
     return (
         <div className={styles.container}>
             <Head>
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
-            {home ? (
-            <Header home imageUrl={coverImgs[router.pathname] ?? '/images/IMG_6515.jpg'}/>
-                ) : (
-                <Header imageUrl={coverImgs[router.pathname] ?? '/images/IMG_6515.jpg'}/>
-                )}
+            <Header pagetype={pagetype} imageUrl={coverImgs[router.pathname] ?? '/images/IMG_6515.jpg'}/>
             <main>{children}</main>
             {/*<Button variant="contained" color="secondary">Click me</Button>*/}
         </div>
