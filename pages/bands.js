@@ -1,32 +1,48 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Date from '../components/Date';
-import Layout, { siteTitle } from '../components/Layout';
+import path from 'path';
+import Layout, {siteTitle} from '../components/Layout';
 import utilStyles from '../styles/utils.module.css';
-import { getSortedPostsData } from '../lib/posts';
 import Contentblock from "../components/Contentblock";
+import fs from 'fs';
 
-export async function getStaticProps() {
-    const allPostsData = getSortedPostsData();
-    return {
-        props: {
-            allPostsData,
-        },
-    };
-}
-export default function Home({ allPostsData }) {
+export default function Home(props) {
+    const bands = props.bands;
     return (
         <Layout pagetype={'bands'}>
             <Head>
                 <title>{siteTitle}</title>
             </Head>
             <div className={utilStyles.gridwrapper}>
-                <Contentblock imageUrl={'/images/IMG_6424.jpg'} linkUrl={'bands'} contenttitle={'Bands'}/>
-                <Contentblock imageUrl={'/images/owee.jpg'} linkUrl={'bio'} contenttitle={'Bio'}/>
-                {/*<Contentblock imageUrl={'/images/IMG_6539.jpg'}/>*/}
-                {/*<Contentblock imageUrl={'/images/IMG_9686.jpg'}/>*/}
+                {bands.map(band => {
+                        if (band.id % 2 !== 0) {
+                            return (<>
+                                <Contentblock imageUrl={band.imageUrl} linkUrl={'bands'} contenttitle={band.name}
+                                              type={'img'}/>
+                                <Contentblock contenttitle={band.name} contenttext={band.text}/>
+                            </>)
+                        }
+                        return (<>
+                                <Contentblock contenttitle={band.name} contenttext={band.text}/>
+                                <Contentblock imageUrl={band.imageUrl} linkUrl={'bands'} contenttitle={band.name}
+                                              type={'img'}/>
+
+                            </>
+                        )
+                    }
+                )}
             </div>
         </Layout>
     );
 }
 
+export async function getStaticProps() {
+    const filePath = path.join(process.cwd(), 'lib/data.json');
+    const jsonData = await fs.readFileSync(filePath);
+    const objectData = JSON.parse(jsonData);
+
+    return {
+        props: objectData
+    }
+}

@@ -1,0 +1,34 @@
+{
+  "bands": [
+    {
+      "id": "1",
+      "name": "Kris Ransijn Trio",
+      "text": "Het Kris Ransijn Trio bestaat uit drie jonge gedreven muzikanten. Ze spelen verrassende en frisse eigen composities in de vorm van de bekende jazzstijlen Swing, Bossa Nova en Ballad, maar doen ook uitstapjes naar Funk, Wals en Latin. Eigen werk geïnspireerd op ervaringen, emoties en muziekstijlen uit alle hoeken van de wereld.",
+      "imageUrl": "/images/IMG_9503.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Artoise Big Band",
+      "text": "ctm wn",
+      "imageUrl": "/images/IMG_9246.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Bebop Poetry",
+      "text": "ctm wn los weones que me chupai po",
+      "imageUrl": "/images/IMG_6424.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Between the Lines",
+      "text": "ctm wn los weones que me chupai po",
+      "imageUrl": "/images/IMG_6424.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Between the Lines",
+      "text": "ctm wn los weones que me chupai po",
+      "imageUrl": "/images/IMG_6424.jpg"
+    }
+  ]
+}

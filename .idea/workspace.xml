@@ -3,15 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="711e0122-736f-485f-b960-bfa0a949bb1b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Contentblock.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Contentblock.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/posts.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/bands.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/bands.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/bio.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/bio.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/muitest.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/muitest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posts/pre-rendering.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posts/ssg-ssr.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/shows.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shows.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/nummer 2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/utils.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/utils.module.css" afterDir="false" />
     </list>
     <list id="81835202-5839-4fa4-a46f-45c7f251ca18" name="Changes by matthijs" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +32,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -44,6 +57,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.13.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.45" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -86,7 +101,8 @@
       <workItem from="1657778265814" duration="33000" />
       <workItem from="1657778300835" duration="3300000" />
       <workItem from="1657885992332" duration="8761000" />
-      <workItem from="1658089462863" duration="1872000" />
+      <workItem from="1658089462863" duration="2189000" />
+      <workItem from="1658156922177" duration="16264000" />
     </task>
     <task id="LOCAL-00001" summary="Update met Matthijs">
       <created>1657749863341</created>
@@ -179,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658089685768</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Unique headers">
+      <created>1658097416026</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1658097416026</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +244,8 @@
     <MESSAGE value="fixed [id].js]" />
     <MESSAGE value="Update for carousel" />
     <MESSAGE value="Update for carousel2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update for carousel2" />
+    <MESSAGE value="Unique headers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unique headers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -3,20 +3,11 @@ import Link from 'next/link';
 import Date from '../components/Date';
 import Layout, { siteTitle } from '../components/Layout';
 import utilStyles from '../styles/utils.module.css';
-import { getSortedPostsData } from '../lib/posts';
 import Contentblock from "../components/Contentblock";
 
-export async function getStaticProps() {
-    const allPostsData = getSortedPostsData();
-    return {
-        props: {
-            allPostsData,
-        },
-    };
-}
 export default function Home({ allPostsData }) {
     return (
-        <Layout pagetype={'bands'}>
+        <Layout pagetype={'bio'}>
             <Head>
                 <title>{siteTitle}</title>
             </Head>

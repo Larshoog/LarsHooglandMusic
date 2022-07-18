@@ -40,29 +40,12 @@ const Header = ({imageUrl, name, pagetype}) => {
                         </div>
                     </div>
                 </>
-            ) : (<div/>)
-            }{
-            pagetype === 'bands' ? (
+            ) : (
                 <>
                     <div className={utilStyles.logocontainer}>
-                        <h1 className={utilStyles.headingXl}>Between the Lines</h1>
-                    </div>
-                    <div className={utilStyles.leftarrow}>
-                        <Grow in timeout={1500}>
-                            <Fab color="primary">
-                                <KeyboardArrowLeftIcon fontSize="large"/>
-                            </Fab>
-                        </Grow>
-                    </div>
-                    <div className={utilStyles.rightarrow}>
-                        <Grow in timeout={1500}>
-                            <Fab color="primary">
-                                <KeyboardArrowRightIcon fontSize="large"/>
-                            </Fab>
-                        </Grow>
+                        <h1 className={utilStyles.headingXl}>{pagetype}</h1>
                     </div>
                 </>
-            ) : (<div/>
             )}
             <div className={utilStyles.scrollarrow}>
                 <Grow in timeout={1500}>

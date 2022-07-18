@@ -3,7 +3,6 @@ import Link from 'next/link';
 import Date from '../components/Date';
 import Layout, { siteTitle } from '../components/Layout';
 import utilStyles from '../styles/utils.module.css';
-import { getSortedPostsData } from '../lib/posts';
 import Contentblock from "../components/Contentblock";
 
 export async function getStaticProps() {
@@ -16,7 +15,7 @@ export async function getStaticProps() {
 }
 export default function Home({ allPostsData }) {
     return (
-        <Layout>
+        <Layout pagetype={'contact'}>
             <Head>
                 <title>{siteTitle}</title>
             </Head>
