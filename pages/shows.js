@@ -5,7 +5,7 @@ import Layout, { siteTitle } from '../components/Layout';
 import utilStyles from '../styles/utils.module.css';
 import Contentblock from "../components/Contentblock";
 
-export default function Home({ allPostsData }) {
+export default function Home({ }) {
     return (
         <Layout pagetype={'shows'}>
             <Head>

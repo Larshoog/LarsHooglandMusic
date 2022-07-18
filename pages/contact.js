@@ -5,15 +5,8 @@ import Layout, { siteTitle } from '../components/Layout';
 import utilStyles from '../styles/utils.module.css';
 import Contentblock from "../components/Contentblock";
 
-export async function getStaticProps() {
-    const allPostsData = getSortedPostsData();
-    return {
-        props: {
-            allPostsData,
-        },
-    };
-}
-export default function Home({ allPostsData }) {
+
+export default function Home({}) {
     return (
         <Layout pagetype={'contact'}>
             <Head>

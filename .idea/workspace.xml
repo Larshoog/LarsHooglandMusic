@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="711e0122-736f-485f-b960-bfa0a949bb1b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Contentblock.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Contentblock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/posts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/bands.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/bands.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/bio.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/bio.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/muitest.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/muitest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/posts/pre-rendering.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/posts/ssg-ssr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/muitest.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/shows.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shows.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/utils.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/utils.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/test.js" beforeDir="false" />
     </list>
     <list id="81835202-5839-4fa4-a46f-45c7f251ca18" name="Changes by matthijs" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +93,7 @@
       <workItem from="1657778300835" duration="3300000" />
       <workItem from="1657885992332" duration="8761000" />
       <workItem from="1658089462863" duration="2189000" />
-      <workItem from="1658156922177" duration="16264000" />
+      <workItem from="1658156922177" duration="16618000" />
     </task>
     <task id="LOCAL-00001" summary="Update met Matthijs">
       <created>1657749863341</created>
@@ -202,7 +193,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658097416026</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Unique headers">
+      <created>1658179942221</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1658179942221</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Fixed bands page">
+      <created>1658180057131</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1658180057131</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +250,8 @@
     <MESSAGE value="Update for carousel" />
     <MESSAGE value="Update for carousel2" />
     <MESSAGE value="Unique headers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unique headers" />
+    <MESSAGE value="Fixed bands page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bands page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
