@@ -3,19 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="711e0122-736f-485f-b960-bfa0a949bb1b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Contentblock.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Contentblock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/bands.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/bands.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/bio.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/bio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/shows.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shows.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/utils.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/utils.module.css" afterDir="false" />
     </list>
     <list id="81835202-5839-4fa4-a46f-45c7f251ca18" name="Changes by matthijs" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +91,7 @@
       <workItem from="1658156922177" duration="17013000" />
       <workItem from="1658254980228" duration="3598000" />
       <workItem from="1658258971029" duration="7073000" />
+      <workItem from="1658315009883" duration="1058000" />
     </task>
     <task id="LOCAL-00001" summary="Update met Matthijs">
       <created>1657749863341</created>
@@ -224,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658180193344</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Fixed bands page again">
+      <created>1658315093803</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1658315093803</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
