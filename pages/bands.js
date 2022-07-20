@@ -10,7 +10,7 @@ import fs from 'fs';
 export default function Home(props) {
     const bands = props.bands;
     return (
-        <Layout pagetype={'bands'}>
+        <Layout pagetype={'projects'}>
             <Head>
                 <title>{siteTitle}</title>
             </Head>
@@ -20,11 +20,11 @@ export default function Home(props) {
                             return (<>
                                 <Contentblock imageUrl={band.imageUrl} linkUrl={'bands'} contenttitle={band.name}
                                               type={'img'}/>
-                                <Contentblock contenttitle={band.name} contenttext={band.text}/>
+                                <Contentblock contenttitle={band.name} contenttext={band.text} buttonUrl={band.buttonUrl}/>
                             </>)
                         }
                         return (<>
-                                <Contentblock contenttitle={band.name} contenttext={band.text}/>
+                                <Contentblock contenttitle={band.name} contenttext={band.text} buttonUrl={band.buttonUrl}/>
                                 <Contentblock imageUrl={band.imageUrl} linkUrl={'bands'} contenttitle={band.name}
                                               type={'img'}/>
 

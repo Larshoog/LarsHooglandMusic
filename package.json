@@ -20,6 +20,8 @@
     "gray-matter": "^4.0.3",
     "mui-audio-player": "^1.0.1",
     "next": "latest",
+    "next-images": "^1.8.4",
+    "next-transpile-modules": "^9.0.0",
     "prop-types": "latest",
     "react": "latest",
     "react-dom": "latest",

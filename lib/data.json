@@ -2,33 +2,52 @@
   "bands": [
     {
       "id": "1",
-      "name": "Kris Ransijn Trio",
-      "text": "Het Kris Ransijn Trio bestaat uit drie jonge gedreven muzikanten. Ze spelen verrassende en frisse eigen composities in de vorm van de bekende jazzstijlen Swing, Bossa Nova en Ballad, maar doen ook uitstapjes naar Funk, Wals en Latin. Eigen werk geïnspireerd op ervaringen, emoties en muziekstijlen uit alle hoeken van de wereld.",
-      "imageUrl": "/images/IMG_9503.jpg"
+      "name": "Bebop Poetry",
+      "text": "When spoken word artist Kenny Gomes meets Martijn van Ditshuizen's jazz quartet, magic happens. Composition and improvisation blend together seamlessly as the audience is taken on a captivating journey.",
+      "imageUrl": "/images/IMG_6424.jpg",
+      "buttonUrl": "https://www.youtube.com/watch?v=zBIsUjcXb5Y"
     },
     {
       "id": "2",
       "name": "Artoise Big Band",
       "text": "ctm wn",
-      "imageUrl": "/images/IMG_9246.jpg"
+      "imageUrl": "/images/IMG_9246.jpg",
+      "buttonUrl": "https://songwhip.com/larshoogland/yagan"
     },
     {
       "id": "3",
-      "name": "Bebop Poetry",
-      "text": "ctm wn los weones que me chupai po",
-      "imageUrl": "/images/IMG_6424.jpg"
+      "name": "Kris Ransijn Trio",
+      "text": "Kris Ransijn Trio consists of three young driven musicians. They play surprising and refreshing compositions based on experiences, emotions and musical styles from every corner of the world.",
+      "imageUrl": "/images/KrtFoto1.jpg",
+      "buttonUrl": "https://songwhip.com/larshoogland/yagan"
     },
     {
       "id": "4",
       "name": "Between the Lines",
-      "text": "ctm wn los weones que me chupai po",
-      "imageUrl": "/images/IMG_6424.jpg"
+      "text": "Imagine yourself walking down the streets of New Orleans.",
+      "imageUrl": "/images/IMG_6424.jpg",
+      "buttonUrl": "https://songwhip.com/larshoogland/yagan"
     },
     {
       "id": "5",
-      "name": "Between the Lines",
-      "text": "ctm wn los weones que me chupai po",
-      "imageUrl": "/images/IMG_6424.jpg"
+      "name": "Hoogland, Ransijn & van Stralen",
+      "text": "Lars Hoogland, Kris Ransijn and Elbrich van Stralen are constantly challenging, searching and finding each other in their improvisations.",
+      "imageUrl": "/images/IMG_0669.jpg",
+      "buttonUrl": "https://songwhip.com/larshoogland/yagan"
+    },
+    {
+      "id": "6",
+      "name": "Jazzduo Salted Butter",
+      "text": "Butter is the basis of any great sandwich, but butter has little flavor of its own. Much like the jazz standard, adding just a pinch of salt will make it a lot more interesting. Jazzduo Salted Butter tkaes the Jazz Standard with a grain of salt for a tasteful and innovative performance. ",
+      "imageUrl": "/images/IMG_9462.jpg",
+      "buttonUrl": "https://songwhip.com/larshoogland/yagan"
+    },
+    {
+      "id": "7",
+      "name": "Blazers Collectief West",
+      "text": "Blazers Collectief West was founded for the Westland NYE concert. Directed by its musical leader Erik-Jan de With, the collective turned out to be a golden combination.",
+      "imageUrl": "/images/westland.jpg",
+      "buttonUrl": "https://www.youtube.com/watch?v=gp_cdSxK-Fs"
     }
   ]
 }

@@ -12,8 +12,8 @@ export default function Home({ }) {
                 <title>{siteTitle}</title>
             </Head>
             <div className={utilStyles.gridwrapper}>
-                <Contentblock imageUrl={'/images/IMG_6424.jpg'} linkUrl={'bands'} contenttitle={'Bands'}/>
-                <Contentblock imageUrl={'/images/owee.jpg'} linkUrl={'bio'} contenttitle={'Bio'}/>
+                <Contentblock imageUrl={'/images/IMG_6424.jpg'} linkUrl={'bands'} buttonUrl={'bands'} contenttitle={'Bands'}/>
+                <Contentblock imageUrl={'/images/owee.jpg'} linkUrl={'bio'} buttonUrl={'bands'} contenttitle={'Bio'}/>
                 {/*<Contentblock imageUrl={'/images/IMG_6539.jpg'}/>*/}
                 {/*<Contentblock imageUrl={'/images/IMG_9686.jpg'}/>*/}
             </div>

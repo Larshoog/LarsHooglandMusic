@@ -25,7 +25,7 @@ const Header = ({imageUrl, name, pagetype}) => {
             />
             <div className={utilStyles.navbar}>
                 <NavItem text="Home" href={"/"}/>
-                <NavItem text="Bands" href={"bands"}/>
+                <NavItem text="Projects" href={"bands"}/>
                 <NavItem text="Bio" href={"bio"}/>
                 <NavItem text="Shows" href={"shows"}/>
                 <NavItem text="Store" href={"store"}/>

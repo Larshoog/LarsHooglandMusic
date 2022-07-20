@@ -13,8 +13,8 @@ body {
 }
 
 a {
-    color: blue;
     text-decoration: none;
+    color: white;
 }
 
 a:hover {

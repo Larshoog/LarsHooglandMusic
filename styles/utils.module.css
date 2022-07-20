@@ -4,6 +4,7 @@
     font-weight: 800;
     letter-spacing: -0.05rem;
     margin: 1rem 0;
+
 }
 
 .headingXl {
@@ -17,11 +18,11 @@
 }
 
 .headingLg {
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 1.4;
     margin: 1rem 0;
     z-index: 100;
-    color:white;
+    text-transform: uppercase;
 }
 
 .headingMd {
@@ -120,7 +121,7 @@
 .gridwrapper{
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 1.75vw;
-    grid-row-gap: 1.75vw;
+    grid-row-gap: 3.5vw;
     width: auto;
     height: auto;
     display: grid;
@@ -146,6 +147,7 @@
     margin: 0;
     position: relative;
     text-align: center;
+    padding: 0 2rem;
 }
 
 .content3{
@@ -166,4 +168,9 @@
     height: fit-content;
     margin: auto;
     text-transform: uppercase;
+}
+
+.buttoncontainer{
+    bottom: 0;
+    text-align: center;
 }

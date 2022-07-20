@@ -2,8 +2,10 @@ import Image from "next/image";
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import {bandinfo} from "../lib/data.json";
+import {Button} from "@mui/material";
+import MusicNoteIcon from '@mui/icons-material/MusicNote';
 
-const Contentblock = ({imageUrl, linkUrl, contenttitle, contenttext, type}) => {
+const Contentblock = ({imageUrl, linkUrl, buttonUrl, contenttitle, contenttext, type}) => {
     return (
         type === 'img' ? (
             <div className={utilStyles.content}>
@@ -23,8 +25,12 @@ const Contentblock = ({imageUrl, linkUrl, contenttitle, contenttext, type}) => {
             </div>
         ) : (
             <div className={utilStyles.content}>
-                <h2>{contenttitle}</h2>
+                <h2 className={utilStyles.headingLg}>{contenttitle}</h2>
                 <p>{contenttext}</p>
+                <div className={utilStyles.buttoncontainer}>
+                    <Button variant="contained" color="primary" startIcon={<MusicNoteIcon/>}><Link href={buttonUrl}><a>Listen
+                        here</a></Link></Button>
+                </div>
             </div>
         )
 
