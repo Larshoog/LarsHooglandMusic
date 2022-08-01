@@ -1,24 +1,47 @@
-import Head from 'next/head';
-import Link from 'next/link';
-import Date from '../components/Date';
-import Layout, { siteTitle } from '../components/Layout';
+import Layout from '../components/Layout';
 import utilStyles from '../styles/utils.module.css';
-import Contentblock from "../components/Contentblock";
-import Section from "../components/Section";
+import {Piano as PianoIcon} from "@mui/icons-material";
+import {
+    Timeline,
+    TimelineConnector,
+    TimelineContent,
+    TimelineDot,
+    TimelineItem,
+    TimelineOppositeContent,
+    TimelineSeparator
+} from "@mui/lab";
+import {Box, Typography} from "@mui/material";
 
-export default function Home({ }) {
-    return (
-        <Layout pagetype={'shows'}>
-            <Head>
-                <title>{siteTitle}</title>
-            </Head>
-            <div className={utilStyles.gridwrapper}>
-                <Section>
-                <Contentblock imageUrl={'/images/IMG_6424.jpg'} linkUrl={'bands'} buttonUrl={'bands'} contenttitle={'Bands'}/>
-                <Contentblock imageUrl={'/images/owee.jpg'} linkUrl={'bio'} buttonUrl={'bands'} contenttitle={'Bio'}/>
-                </Section>
-            </div>
-        </Layout>
-    );
-}
+const Shows = () => (
+    <Layout pagetype="shows">
+        <div className={utilStyles.gridwrapper}>
+            <Box>
+                <Timeline position="alternate">
+                    <TimelineItem>
+                        <TimelineSeparator>
+                            <TimelineConnector/>
+                            <TimelineDot>
+                            </TimelineDot>
+                            <TimelineConnector/>
+                        </TimelineSeparator>
+                        <TimelineContent>
+                                Show in Barendrecht
+                        </TimelineContent>
+                    </TimelineItem>
+                    <TimelineItem>
+                        <TimelineSeparator>
+                            <TimelineConnector/>
+                            <TimelineDot>
+                            </TimelineDot>
+                            <TimelineConnector/>
+                        </TimelineSeparator>
+                        <TimelineContent>
+                                Show in Barendrecht
+                        </TimelineContent>
+                    </TimelineItem>
+                </Timeline>
+            </Box>
+        </div>
+    </Layout>
+)
 

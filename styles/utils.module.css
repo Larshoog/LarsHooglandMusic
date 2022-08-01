@@ -126,12 +126,8 @@
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: stretch;
-    gap: 2rem;
-}
-
-.section {
-    display: flex;
-    gap: 4rem;
+    margin: 0 5vw;
+    gap: 4rem 0;
 }
 
 .section:nth-child(even) {
