@@ -26,7 +26,6 @@ const Layout = ({ children, pagetype }) => {
     return (
         <div className={styles.container}>
             <Head>
-                @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@800&display=swap');
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
             <Header pagetype={pagetype} imageUrl={coverImgs[router.pathname] ?? '/images/IMG_6515.jpg'}/>

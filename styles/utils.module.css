@@ -13,7 +13,7 @@
     font-weight: 700;
     letter-spacing: -0.05rem;
     margin: 1rem 0;
-    color:white;
+    color: white;
     text-transform: uppercase;
 }
 
@@ -56,7 +56,7 @@
     color: #666;
 }
 
-.logo{
+.logo {
     text-align: left;
     position: absolute;
     top: 0;
@@ -66,7 +66,8 @@
     height: fit-content;
     margin: auto;
 }
-.logocontainer{
+
+.logocontainer {
     width: 50%;
     text-align: center;
     position: absolute;
@@ -78,71 +79,63 @@
     margin: auto;
 }
 
-.navbar{
+.navbar {
     height: 100px;
-    top:0;
+    top: 0;
     z-index: 10;
-    color:white;
+    color: white;
     position: absolute;
     padding: 14.5px 9px;
 }
 
-.navitem{
+.navitem {
     margin: 1em;
     text-transform: uppercase;
-    color:white;
+    color: white;
     font-weight: 600;
 }
 
-.scrollarrow{
-    z-index:10;
-    bottom:0;
+.scrollarrow {
+    z-index: 10;
+    bottom: 0;
     position: absolute;
-    color:white;
-    font-size: 4rem;
-}
-.leftarrow{
-    z-index:10;
-    left:0;
-    bottom: 50vh;
-    position: absolute;
-    color:white;
-    font-size: 4rem;
-}
-.rightarrow{
-    z-index:10;
-    right:0;
-    bottom: 50vh;
-    position: absolute;
-    color:white;
+    color: white;
     font-size: 4rem;
 }
 
-.gridwrapper{
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 1.75vw;
-    grid-row-gap: 3.5vw;
-    width: auto;
-    height: auto;
-    display: grid;
-    padding: 0vw 4vw;
-    margin-left: auto;
-    margin-right: auto;
-}
-.gridwrapper3{
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 1.75vw;
-    grid-row-gap: 1.75vw;
-    width: auto;
-    height: auto;
-    display: grid;
-    padding: 0vw 4vw;
-    margin-left: auto;
-    margin-right: auto;
+.leftarrow {
+    z-index: 10;
+    left: 0;
+    bottom: 50vh;
+    position: absolute;
+    color: white;
+    font-size: 4rem;
 }
 
-.content{
-    width: 100%;
+.rightarrow {
+    z-index: 10;
+    right: 0;
+    bottom: 50vh;
+    position: absolute;
+    color: white;
+    font-size: 4rem;
+}
+
+.gridwrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    gap: 2rem;
+}
+
+.section {
+    display: flex;
+    gap: 4rem;
+}
+
+.content {
+    /*width: 100%;*/
     height: 50vh;
     margin: 0;
     position: relative;
@@ -150,14 +143,7 @@
     padding: 0 2rem;
 }
 
-.content3{
-    width: 100%;
-    height: 30vh;
-    margin: 0;
-    position: relative;
-}
-
-.blockcontainer{
+.blockcontainer {
     width: 50%;
     text-align: center;
     position: absolute;
@@ -170,7 +156,7 @@
     text-transform: uppercase;
 }
 
-.buttoncontainer{
+.buttoncontainer {
     bottom: 0;
     text-align: center;
 }

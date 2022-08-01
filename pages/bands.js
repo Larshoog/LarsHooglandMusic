@@ -7,36 +7,6 @@ import utilStyles from '../styles/utils.module.css';
 import Contentblock from "../components/Contentblock";
 import fs from 'fs';
 
-export default function Home(props) {
-    const bands = props.bands;
-    return (
-        <Layout pagetype={'projects'}>
-            <Head>
-                <title>{siteTitle}</title>
-            </Head>
-            <div className={utilStyles.gridwrapper}>
-                {bands.map(band => {
-                        if (band.id % 2 !== 0) {
-                            return (<>
-                                <Contentblock imageUrl={band.imageUrl} linkUrl={'bands'} contenttitle={band.name}
-                                              type={'img'}/>
-                                <Contentblock contenttitle={band.name} contenttext={band.text} buttonUrl={band.buttonUrl}/>
-                            </>)
-                        }
-                        return (<>
-                                <Contentblock contenttitle={band.name} contenttext={band.text} buttonUrl={band.buttonUrl}/>
-                                <Contentblock imageUrl={band.imageUrl} linkUrl={'bands'} contenttitle={band.name}
-                                              type={'img'}/>
-
-                            </>
-                        )
-                    }
-                )}
-            </div>
-        </Layout>
-    );
-}
-
 export async function getStaticProps() {
     const filePath = path.join(process.cwd(), 'lib/data.json');
     const jsonData = await fs.readFileSync(filePath);

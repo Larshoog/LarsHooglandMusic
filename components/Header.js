@@ -36,7 +36,9 @@ const Header = ({imageUrl, name, pagetype}) => {
                 <>
                     <div className={utilStyles.logocontainer}>
                         <div className={utilStyles.logo}>
+                            <Grow in timeout={1500}>
                             <h1 className={utilStyles.headingXl}>Lars<br/>Hoogland<br/>Music</h1>
+                            </Grow>
                         </div>
                     </div>
                 </>

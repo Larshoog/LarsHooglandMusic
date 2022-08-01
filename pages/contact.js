@@ -12,12 +12,13 @@ export default function Home({}) {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <div className={utilStyles.gridwrapper}>
-                <Contentblock imageUrl={'/images/IMG_6424.jpg'} linkUrl={'bands'} buttonUrl={'bands'} contenttitle={'Bands'}/>
-                <Contentblock imageUrl={'/images/owee.jpg'} linkUrl={'bio'} buttonUrl={'bands'} contenttitle={'Bio'}/>
-                {/*<Contentblock imageUrl={'/images/IMG_6539.jpg'}/>*/}
-                {/*<Contentblock imageUrl={'/images/IMG_9686.jpg'}/>*/}
-            </div>
+            <form action="/send-data-here" method="post">
+                <label htmlFor="first">First name:</label>
+                <input type="text" id="first" name="first"/>
+                <label htmlFor="last">Last name:</label>
+                <input type="text" id="last" name="last"/>
+                <button type="submit">Submit</button>
+            </form>
         </Layout>
     );
 }
