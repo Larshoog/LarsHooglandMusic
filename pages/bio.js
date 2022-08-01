@@ -1,5 +1,4 @@
-import Head from 'next/head';
-import Layout, {siteTitle} from '../components/Layout';
+import Layout from '../components/Layout';
 import utilStyles from '../styles/utils.module.css';
 import Section from "../components/Section";
 import ContentImage from "../components/ContentImage";
@@ -7,9 +6,6 @@ import ContentText from "../components/ContentText";
 
 const Bio = () => (
     <Layout pagetype="bio">
-        <Head>
-            <title>{siteTitle}</title>
-        </Head>
         <div className={utilStyles.gridwrapper}>
             <Section>
                 <ContentText

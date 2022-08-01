@@ -1,20 +1,15 @@
-import Head from 'next/head';
-import path from 'path';
-import Layout, {siteTitle} from '../components/Layout';
+import Layout from '../components/Layout';
 import utilStyles from '../styles/utils.module.css';
-import fs from 'fs';
 import Section from "../components/Section";
 import ContentImage from "../components/ContentImage";
 import ContentText from "../components/ContentText";
+import bandInfo from '../lib/data.json'
 
-const Bands = ({bands}) => (
-    <Layout pagetype={'projects'}>
-        <Head>
-            <title>{siteTitle}</title>
-        </Head>
+const Bands = () => (
+    <Layout pagetype="projects">
         <div className={utilStyles.gridwrapper}>
-            {bands.map(band => (
-                <Section>
+            {bandInfo.bands.map((band) => (
+                <Section key={band.id}>
                     <ContentImage
                         imageUrl={band.imageUrl}
                         linkUrl={'bands'}
@@ -30,15 +25,5 @@ const Bands = ({bands}) => (
         </div>
     </Layout>
 )
-
-export async function getStaticProps() {
-    const filePath = path.join(process.cwd(), 'lib/data.json');
-    const jsonData = await fs.readFileSync(filePath);
-    const objectData = JSON.parse(jsonData);
-
-    return {
-        props: objectData
-    }
-}
 
 export default Bands

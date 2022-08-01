@@ -1,7 +1,6 @@
 import Image from "next/image";
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
-import {bandinfo} from "../lib/data.json";
 import {Button} from "@mui/material";
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
 
