@@ -24,3 +24,6 @@ img {
     display: block;
     color: white;
 }
+.MuiTypography-root a{
+    color:black;
+}

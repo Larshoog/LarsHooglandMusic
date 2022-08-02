@@ -10,7 +10,7 @@ const coverImgs = {
     '/': '/images/IMG_6515.jpg',
     '/bands': '/images/IMG_6424.jpg',
     '/bio': '/images/IMG_9127.jpg',
-    '/shows': '/images/achter.jpg',
+    '/shows': '/images/IMG_6424.jpg',
     '/store': '/images/IMG_9686.jpg',
     '/contact': '/images/IMG_9462.jpg',
 }

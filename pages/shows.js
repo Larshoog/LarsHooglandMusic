@@ -38,7 +38,7 @@ const Shows = () => (
                         </TimelineSeparator>
                         <TimelineContent sx={{py: '12px', px: 2}} >
                             <Typography variant="h4" component="span">{gig.name}</Typography>
-                            <Typography>{gig.text}</Typography>
+                            <Typography><a href={gig.linkurl}>INFO AND TICKETS</a></Typography>
                         </TimelineContent>
                     </TimelineItem>
                     ))}
