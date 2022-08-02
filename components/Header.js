@@ -23,21 +23,29 @@ const Header = ({imageUrl, name, pagetype}) => {
                 alt={name}
                 objectFit={"cover"}
             />
-            <div className={utilStyles.navbar}>
-                <NavItem text="Home" href={"/"}/>
-                <NavItem text="Projects" href={"bands"}/>
-                <NavItem text="Bio" href={"bio"}/>
-                <NavItem text="Shows" href={"shows"}/>
-                <NavItem text="Store" href={"store"}/>
-                <NavItem text="Contact" href={"contact"}/>
+            <Grow in timeout={1000}>
+                <div className={utilStyles.navbar}>
+                    <NavItem text="Home" href={"/"}/>
+                    <NavItem text="Projects" href={"bands"}/>
+                    <NavItem text="Bio" href={"bio"}/>
+                    <NavItem text="Shows" href={"shows"}/>
+                    <NavItem text="Store" href={"store"}/>
+                    <NavItem text="Contact" href={"contact"}/>
 
-            </div>
+                </div>
+            </Grow>
             {pagetype === 'home' ? (
                 <>
                     <div className={utilStyles.logocontainer}>
                         <div className={utilStyles.logo}>
                             <Grow in timeout={1500}>
-                            <h1 className={utilStyles.headingXl}>Lars<br/>Hoogland<br/>Music</h1>
+                                <h1 className={utilStyles.headingXl}>Lars</h1>
+                            </Grow>
+                            <Grow in timeout={2000}>
+                                <h1 className={utilStyles.headingXl}>Hoogland</h1>
+                            </Grow>
+                            <Grow in timeout={2500}>
+                                <h1 className={utilStyles.headingXl}>Music</h1>
                             </Grow>
                         </div>
                     </div>
@@ -45,7 +53,9 @@ const Header = ({imageUrl, name, pagetype}) => {
             ) : (
                 <>
                     <div className={utilStyles.logocontainer}>
-                        <h1 className={utilStyles.headingXl}>{pagetype}</h1>
+                        <Grow in timeout={2500}>
+                            <h1 className={utilStyles.headingXl}>{pagetype}</h1>
+                        </Grow>
                     </div>
                 </>
             )}

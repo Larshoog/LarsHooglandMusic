@@ -4,6 +4,7 @@ import Section from "../components/Section";
 import ContentImage from "../components/ContentImage";
 import ContentText from "../components/ContentText";
 import bandInfo from '../lib/data.json'
+import ContentTextButtonless from "../components/Contentblock";
 
 const Bands = () => (
     <Layout pagetype="projects">
@@ -15,7 +16,24 @@ const Bands = () => (
                         linkUrl={'bands'}
                         title={band.name}
                     />
-                    <ContentText
+                    <ContentTextButtonless
+                        title={band.name}
+                        text={band.text}
+                        buttonUrl={band.buttonUrl}
+                    />
+                </Section>
+            ))}
+        </div>
+        <div className={utilStyles.headingLg}><h1>SPECIAL PROJECTS</h1></div>
+        <div className={utilStyles.gridwrapper}>
+            {bandInfo.specialbands.map((band) => (
+                <Section key={band.id}>
+                    <ContentImage
+                        imageUrl={band.imageUrl}
+                        linkUrl={'bands'}
+                        title={band.name}
+                    />
+                    <ContentTextButtonless
                         title={band.name}
                         text={band.text}
                         buttonUrl={band.buttonUrl}
