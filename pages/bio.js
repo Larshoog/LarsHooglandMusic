@@ -2,13 +2,13 @@ import Layout from '../components/Layout';
 import utilStyles from '../styles/utils.module.css';
 import Section from "../components/Section";
 import ContentImage from "../components/ContentImage";
-import ContentText from "../components/ContentText";
+import ContentTextButtonless from "../components/Contentblock";
 
 const Bio = () => (
     <Layout pagetype="bio">
         <div className={utilStyles.gridwrapper}>
             <Section>
-                <ContentText
+                <ContentTextButtonless
                     title="Bio"
                     linkUrl="bands"
                     buttonUrl="bands"

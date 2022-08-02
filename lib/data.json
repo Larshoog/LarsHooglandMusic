@@ -51,5 +51,49 @@
       "imageUrl": "/images/westland.jpg",
       "buttonUrl": "https://www.youtube.com/watch?v=gp_cdSxK-Fs"
     }
+  ],
+  "gigs": [
+    {
+      "id": "0",
+      "name": "Artoise @ Eurekaweek Erasmus University Rotterdam",
+      "date": "14 Aug 2022",
+      "text": "Blazers Collectief West was founded for the Westland new years' concert. Directed by its musical leader Erik-Jan de With, the collective turned out to be a golden combination.",
+      "linkUrl": "https://www.youtube.com/"
+    },
+    {
+      "id": "1",
+      "name": "OWee Showcase @ Groover Jazz",
+      "date": "22-25 Aug 2022",
+      "text": "Blazers Collectief West was founded for the Westland new years' concert. Directed by its musical leader Erik-Jan de With, the collective turned out to be a golden combination.",
+      "linkUrl": "https://www.youtube.com/"
+    },
+    {
+      "id": "1",
+      "name": "Bebop Poetry @ Poëet Club XL Worm",
+      "date": "26 Sep 2022",
+      "text": "Blazers Collectief West was founded for the Westland new years' concert. Directed by its musical leader Erik-Jan de With, the collective turned out to be a golden combination.",
+      "linkUrl": "https://www.youtube.com/"
+    },
+    {
+      "id": "1",
+      "name": "Bebop Poetry @ Gentleman's Club Islamunda",
+      "date": "29 Oct 2022",
+      "text": "Blazers Collectief West was founded for the Westland new years' concert. Directed by its musical leader Erik-Jan de With, the collective turned out to be a golden combination.",
+      "linkUrl": "https://www.youtube.com/"
+    },
+    {
+      "id": "2",
+      "name": "Knallend Westland Nieuwjaarsconcert @ WestlandTheater De Naald",
+      "date": "08 Jan 2023",
+      "text": "Blazers Collectief West was founded for the Westland new years' concert. Directed by its musical leader Erik-Jan de With, the collective turned out to be a golden combination.",
+      "linkUrl": "https://www.youtube.com/"
+    },
+    {
+      "id": "3",
+      "name": "Westland Saxofoon Orkest ft. John Helliwell and Marc Scholten @ Societeit de Witte",
+      "date": "24 Mar 2023",
+      "text": "Blazers Collectief West was founded for the Westland new years' concert. Directed by its musical leader Erik-Jan de With, the collective turned out to be a golden combination.",
+      "linkUrl": "https://www.youtube.com/"
+    }
   ]
 }
