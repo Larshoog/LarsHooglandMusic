@@ -14,6 +14,7 @@
     "@emotion/react": "latest",
     "@emotion/server": "latest",
     "@emotion/styled": "latest",
+    "@formspree/react": "^2.3.0",
     "@mui/icons-material": "latest",
     "@mui/lab": "^5.0.0-alpha.92",
     "@mui/material": "latest",

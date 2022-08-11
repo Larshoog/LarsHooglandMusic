@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styles from './layout.module.css';
 import Header from "./Header";
 import {useRouter} from "next/router";
+import Footer from "./Footer";
 
 const name = 'Lars Hoogland';
 export const siteTitle = 'Lars Hoogland Music';
@@ -25,7 +26,10 @@ const Layout = ({ children, pagetype }) => {
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
             </Head>
             <Header pagetype={pagetype} imageUrl={coverImgs[router.pathname] ?? '/images/IMG_6515.jpg'}/>
-            <main>{children}</main>
+            <main>
+                {children}
+                <Footer />
+            </main>
         </div>
     )
 }

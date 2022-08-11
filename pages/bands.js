@@ -13,7 +13,7 @@ const Bands = () => (
                 <Section key={band.id}>
                     <ContentImage
                         imageUrl={band.imageUrl}
-                        linkUrl={'bands'}
+                        linkUrl={band.buttonUrl}
 
                     />
                     <ContentTextButtonless

@@ -160,6 +160,10 @@
     padding: 0 2rem;
 }
 
+.content p{
+    text-align: justify;
+}
+
 .blockcontainer {
     width: 50%;
     text-align: center;
@@ -176,4 +180,9 @@
 .buttoncontainer {
     bottom: 0;
     text-align: center;
+}
+
+.footer{
+    text-align: center;
+    padding: 3rem 0rem 0rem 0rem;
 }
