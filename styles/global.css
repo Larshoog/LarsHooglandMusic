@@ -24,6 +24,9 @@ img {
     display: block;
     color: white;
 }
+p{
+    text-align: justify;
+}
 .MuiTypography-root a{
     color:black;
 }

@@ -11,7 +11,7 @@ const coverImgs = {
     '/bands': '/images/IMG_6424.jpg',
     '/bio': '/images/IMG_9127.jpg',
     '/shows': '/images/IMG_6424.jpg',
-    '/store': '/images/IMG_9686.jpg',
+    '/store': '/images/IMG_9503.jpg',
     '/contact': '/images/IMG_9462.jpg',
 }
 

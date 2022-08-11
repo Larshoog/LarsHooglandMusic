@@ -14,7 +14,7 @@ const Bands = () => (
                     <ContentImage
                         imageUrl={band.imageUrl}
                         linkUrl={'bands'}
-                        title={band.name}
+
                     />
                     <ContentTextButtonless
                         title={band.name}
