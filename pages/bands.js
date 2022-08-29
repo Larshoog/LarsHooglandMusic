@@ -16,7 +16,7 @@ const Bands = () => (
                         linkUrl={band.buttonUrl}
 
                     />
-                    <ContentTextButtonless
+                    <ContentText
                         title={band.name}
                         text={band.text}
                         buttonUrl={band.buttonUrl}
@@ -32,7 +32,7 @@ const Bands = () => (
                         imageUrl={band.imageUrl}
                         linkUrl={'bands'}
                     />
-                    <ContentTextButtonless
+                    <ContentText
                         title={band.name}
                         text={band.text}
                         buttonUrl={band.buttonUrl}

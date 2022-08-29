@@ -201,6 +201,7 @@
     }
     .content{
         width: 100vw;
+        padding: 0;
     }
     .headingXl{
         font-size: 3rem;
