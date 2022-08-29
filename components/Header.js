@@ -5,7 +5,7 @@ import NavItem from "./NavItem";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
-import {Fab, Grow} from "@mui/material";
+import {Drawer, Fab, Grow} from "@mui/material";
 
 const Header = ({imageUrl, name, pagetype}) => {
     const handleScroll = () => {
@@ -23,6 +23,9 @@ const Header = ({imageUrl, name, pagetype}) => {
                 alt={name}
                 objectFit={"cover"}
             />
+            <div classname={utilStyles.hamburger}>
+                <Drawer/>
+            </div>
             <Grow in timeout={1000}>
                 <div className={utilStyles.navbar}>
                     <NavItem text="Home" href={"/"}/>

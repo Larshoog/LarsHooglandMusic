@@ -11,3 +11,10 @@
 .section > * {
     flex: 1;
 }
+
+@media (max-width:600px) {
+    .section{
+        gap: 1rem;
+    }
+
+}

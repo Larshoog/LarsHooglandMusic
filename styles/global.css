@@ -106,5 +106,5 @@ form select {
 }
 
 form{
-    max-width: 960px;
+    display: inline-block;
 }
