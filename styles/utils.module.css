@@ -192,6 +192,14 @@
     text-align: center;
 }
 
+.mobilemenu{
+    color: white;
+    position: absolute;
+    top:0;
+    left:0;
+    display:none;
+}
+
 @media (max-width:600px) {
     .navbar{
         display: none;
@@ -205,6 +213,12 @@
     }
     .headingXl{
         font-size: 3rem;
+    }
+    .mobilemenu{
+        display: block;
+    }
+    .section {
+        flex-direction: row;
     }
 
 }

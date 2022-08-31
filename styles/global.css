@@ -108,3 +108,7 @@ form select {
 form{
     display: inline-block;
 }
+
+h1::first-letter{
+    color:#BCA371;
+}
