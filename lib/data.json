@@ -62,24 +62,17 @@
   "gigs": [
     {
       "id": "0",
-      "name": "Open jam @ Jazzcafé Dizzy",
-      "date": "6 Sep 2022",
+      "name": "Bebop Poetry @ Flow unplugged",
+      "date": "18 Nov 2022",
       "text": "",
       "linkUrl": "https://www.youtube.com/"
     },
     {
       "id": "1",
-      "name": "Bebop Poetry @ Poëet Club XL Worm",
-      "date": "26 Sep 2022",
+      "name": "Bebop Poetry @ Flowetry de Doelen",
+      "date": "19 Nov 2022",
       "text": "",
       "linkUrl": "https://poeetclub.nl/"
-    },
-    {
-      "id": "1",
-      "name": "Bebop Poetry @ Gentleman's Club Islamunda",
-      "date": "29 Oct 2022",
-      "text": "",
-      "linkUrl": "https://www.youtube.com/"
     },
     {
       "id": "2",

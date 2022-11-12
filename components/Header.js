@@ -15,11 +15,16 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
+import HomeIcon from '@mui/icons-material/Home';
+import MusicNoteIcon from '@mui/icons-material/MusicNote';
 import MailIcon from '@mui/icons-material/Mail';
+import PersonIcon from '@mui/icons-material/Person';
 import Menu from '@mui/icons-material/Menu';
 import Button from '@mui/material/Button';
-
+import Link from "next/link";
 
 
 const Header = ({imageUrl, name, pagetype}) => {
@@ -46,16 +51,84 @@ const Header = ({imageUrl, name, pagetype}) => {
             onKeyDown={toggleDrawer(anchor, false)}
         >
             <List>
-                {['Home', 'Projects', 'Bio', 'Shows', 'Store', 'Contact'].map((text, index) => (
-                    <ListItem key={text} disablePadding>
-                        <ListItemButton>
-                            <ListItemIcon>
-                                {index % 2 === 0 ? <InboxIcon/> : <MailIcon/>}
-                            </ListItemIcon>
-                            <ListItemText primary={text}/>
-                        </ListItemButton>
-                    </ListItem>
-                ))}
+                {
+                    <Link href={"/"}>
+                        <ListItem disablePadding>
+                            <ListItemButton>
+                                <ListItemIcon>
+                                    <HomeIcon/>
+                                </ListItemIcon>
+                                <ListItemText primary="Home"/>
+                            </ListItemButton>
+                        </ListItem>
+                    </Link>
+
+                }
+                {
+                    <Link href={"bands"}>
+                        <ListItem disablePadding>
+                            <ListItemButton>
+                                <ListItemIcon>
+                                    <MusicNoteIcon/>
+                                </ListItemIcon>
+                                <ListItemText primary="Projects"/>
+                            </ListItemButton>
+                        </ListItem>
+                    </Link>
+
+                }
+                {
+                    <Link href={"bio"}>
+                        <ListItem disablePadding>
+                            <ListItemButton>
+                                <ListItemIcon>
+                                    <PersonIcon/>
+                                </ListItemIcon>
+                                <ListItemText primary="Bio"/>
+                            </ListItemButton>
+                        </ListItem>
+                    </Link>
+
+                }
+                {
+                    <Link href={"shows"}>
+                        <ListItem disablePadding>
+                            <ListItemButton>
+                                <ListItemIcon>
+                                    <CalendarMonthIcon/>
+                                </ListItemIcon>
+                                <ListItemText primary="Shows"/>
+                            </ListItemButton>
+                        </ListItem>
+                    </Link>
+
+                }
+                {
+                    <Link href={"store"}>
+                        <ListItem disablePadding>
+                            <ListItemButton>
+                                <ListItemIcon>
+                                    <ShoppingCartIcon/>
+                                </ListItemIcon>
+                                <ListItemText primary="Store"/>
+                            </ListItemButton>
+                        </ListItem>
+                    </Link>
+
+                }
+                {
+                    <Link href={"contact"}>
+                        <ListItem disablePadding>
+                            <ListItemButton>
+                                <ListItemIcon>
+                                    <MailIcon/>
+                                </ListItemIcon>
+                                <ListItemText primary="Contact"/>
+                            </ListItemButton>
+                        </ListItem>
+                    </Link>
+
+                }
             </List>
         </Box>
     );
@@ -75,17 +148,17 @@ const Header = ({imageUrl, name, pagetype}) => {
                 objectFit={"cover"}
             />
             <div className={utilStyles.mobilemenu}>
-                        <IconButton color="secondary"
-                                variant="contained"
-                                aria-label="open drawer"
-                                onClick={toggleDrawer('left', true)}><Menu /></IconButton>
-                        <Drawer
-                            anchor='left'
-                            open={state['left']}
-                            onClose={toggleDrawer('left', false)}
-                        >
-                            {list('left')}
-                        </Drawer>
+                <IconButton color="secondary"
+                            variant="contained"
+                            aria-label="open drawer"
+                            onClick={toggleDrawer('left', true)}><Menu/></IconButton>
+                <Drawer
+                    anchor='left'
+                    open={state['left']}
+                    onClose={toggleDrawer('left', false)}
+                >
+                    {list('left')}
+                </Drawer>
 
             </div>
             <Grow in timeout={1000}>

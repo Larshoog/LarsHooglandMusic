@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="711e0122-736f-485f-b960-bfa0a949bb1b" name="Changes" comment="">
+    <list default="true" id="711e0122-736f-485f-b960-bfa0a949bb1b" name="Changes" comment="Content component overhaul">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/utils.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/utils.module.css" afterDir="false" />
     </list>
     <list id="81835202-5839-4fa4-a46f-45c7f251ca18" name="Changes by matthijs" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,11 +44,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="16.13.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.45" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MANDE" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -53,13 +57,18 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="ts.external.directory.path" value="C:\Users\larsh\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\213.6777.52\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\larsh\Documents\dev\LarsHooglandMusic\lib" />
       <recent name="C:\Users\larsh\Documents\dev\LarsHooglandMusic\nextjs-blog\pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\larsh\Documents\dev\LarsHooglandMusic\lib" />
+      <recent name="C:\Users\larsh\Documents\dev\LarsHooglandMusic\public" />
       <recent name="C:\Users\larsh\Documents\dev\LarsHooglandMusic" />
     </key>
   </component>
@@ -91,7 +100,20 @@
       <workItem from="1658156922177" duration="17013000" />
       <workItem from="1658254980228" duration="3598000" />
       <workItem from="1658258971029" duration="7073000" />
-      <workItem from="1658315009883" duration="1058000" />
+      <workItem from="1658315009883" duration="3436000" />
+      <workItem from="1659363122805" duration="13597000" />
+      <workItem from="1659425960793" duration="11689000" />
+      <workItem from="1659467153310" duration="805000" />
+      <workItem from="1659549920746" duration="2514000" />
+      <workItem from="1659797470911" duration="1869000" />
+      <workItem from="1660207335846" duration="6482000" />
+      <workItem from="1660732304220" duration="663000" />
+      <workItem from="1660739931437" duration="1202000" />
+      <workItem from="1661777256666" duration="4178000" />
+      <workItem from="1661848929087" duration="4526000" />
+      <workItem from="1661949858231" duration="2481000" />
+      <workItem from="1662836787375" duration="322000" />
+      <workItem from="1668264333734" duration="806000" />
     </task>
     <task id="LOCAL-00001" summary="Update met Matthijs">
       <created>1657749863341</created>
@@ -219,7 +241,84 @@
       <option name="project" value="LOCAL" />
       <updated>1658315093803</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Fixed bands page again">
+      <created>1658316166851</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1658316166851</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Content component overhaul">
+      <created>1659370739670</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1659370739670</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Content component overhaul 2.0">
+      <created>1659371099367</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1659371099368</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Content component overhaul 2">
+      <created>1659388834523</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1659388834523</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Content component overhaul final">
+      <created>1659389014054</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1659389014054</updated>
+    </task>
+    <task id="LOCAL-00024" summary="gigs and store pages">
+      <created>1659445562134</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1659445562134</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Content component overhaul">
+      <created>1659454509027</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1659454509028</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Content component overhaul">
+      <created>1659459188775</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1659459188775</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Content component overhaul">
+      <created>1660218536808</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1660218536808</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Mobile overhaul + footer">
+      <created>1661780759407</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1661780759407</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Content component overhaul">
+      <created>1661950157249</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1661950157249</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +363,13 @@
     <MESSAGE value="Unique headers" />
     <MESSAGE value="Fixed bands page" />
     <MESSAGE value="Fixed bands page again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed bands page again" />
+    <MESSAGE value="Content component overhaul 2.0" />
+    <MESSAGE value="Content component overhaul 2" />
+    <MESSAGE value="Content component overhaul final" />
+    <MESSAGE value="gigs and store pages" />
+    <MESSAGE value="Mobile overhaul + footer" />
+    <MESSAGE value="Content component overhaul" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content component overhaul" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
