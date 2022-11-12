@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="711e0122-736f-485f-b960-bfa0a949bb1b" name="Changes" comment="Content component overhaul">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
+    <list default="true" id="711e0122-736f-485f-b960-bfa0a949bb1b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/lib/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/utils.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/utils.module.css" afterDir="false" />
     </list>
     <list id="81835202-5839-4fa4-a46f-45c7f251ca18" name="Changes by matthijs" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +110,7 @@
       <workItem from="1661848929087" duration="4526000" />
       <workItem from="1661949858231" duration="2481000" />
       <workItem from="1662836787375" duration="322000" />
-      <workItem from="1668264333734" duration="806000" />
+      <workItem from="1668264333734" duration="1102000" />
     </task>
     <task id="LOCAL-00001" summary="Update met Matthijs">
       <created>1657749863341</created>
@@ -318,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661950157249</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Kleine fixes, mobile menu">
+      <created>1668265321556</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1668265321556</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +373,8 @@
     <MESSAGE value="gigs and store pages" />
     <MESSAGE value="Mobile overhaul + footer" />
     <MESSAGE value="Content component overhaul" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content component overhaul" />
+    <MESSAGE value="Kleine fixes, mobile menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kleine fixes, mobile menu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
