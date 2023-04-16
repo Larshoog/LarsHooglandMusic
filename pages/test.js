@@ -40,7 +40,9 @@ const Shows = ({events}) => (
                             </TimelineSeparator>
                             <TimelineContent sx={{py: '12px', px: 2}}>
                                 <Typography variant="h4" component="span">{event.title}</Typography>
-                                {/*<Typography><a href={gig.linkurl}>INFO AND TICKETS</a></Typography>*/}
+                                {event.linkUrl && (
+                                    <Typography><a href={event.linkUrl}>INFO AND TICKETS</a></Typography>
+                                )}
                             </TimelineContent>
                         </TimelineItem>
                     ))}
@@ -67,7 +69,7 @@ export async function getStaticProps() {
         // Next.js will attempt to re-generate the page:
         // - When a request comes in
         // - At most once every 5 minutes
-        revalidate: 60 * 5
+        // revalidate: 60 * 5
     }
 }
 

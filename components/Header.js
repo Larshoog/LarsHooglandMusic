@@ -163,13 +163,9 @@ const Header = ({imageUrl, name, pagetype}) => {
             </div>
             <Grow in timeout={1000}>
                 <div className={utilStyles.navbar}>
-                    <NavItem text="Home" href={"/"}/>
-                    <NavItem text="Projects" href={"bands"}/>
-                    <NavItem text="Bio" href={"bio"}/>
-                    <NavItem text="Shows" href={"shows"}/>
-                    <NavItem text="Store" href={"store"}/>
-                    <NavItem text="Contact" href={"contact"}/>
-
+                    {nav.map(navItem => (
+                        <NavItem text={navItem.label} href={navItem.url} key={navItem.url}/>
+                    ))}
                 </div>
             </Grow>
             {pagetype === 'home' ? (

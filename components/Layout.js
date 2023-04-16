@@ -11,9 +11,9 @@ const coverImgs = {
     '/': '/images/IMG_6515.jpg',
     '/bands': '/images/IMG_6424.jpg',
     '/bio': '/images/IMG_9127.jpg',
-    '/shows': '/images/IMG_6424.jpg',
-    '/store': '/images/krtresized.jpg',
-    '/contact': '/images/sbresized.jpg',
+    '/shows': '/images/flow4.jpg',
+    '/store': '/images/sbresized.jpg',
+    '/contact': '/images/GL-174.jpg',
 }
 
 const Layout = ({ children, pagetype }) => {
