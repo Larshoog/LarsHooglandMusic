@@ -5,11 +5,11 @@ import ContentImage from "../components/ContentImage";
 import ContentTextButtonless from "../components/Contentblock";
 
 const Bio = () => (
-    <Layout pagetype="bio">
+    <Layout pagetype="about">
         <div className={utilStyles.gridwrapper}>
             <Section>
                 <ContentTextButtonless
-                    title="Bio"
+                    title="About"
                     linkUrl="bands"
                     buttonUrl="bands"
                     text="Lars Hoogland (1998) is an upcoming jazz bassist from the Netherlands. Lars finds his inspiration in legendary bassists such as Milt Hinton and Ron Carter.
@@ -23,7 +23,7 @@ During his time as the bassist for blues band Harlem Lake, Lars travelled to Mem
 <br><br>
     Afterwards, Lars enrolled in the Conservatory of Rotterdam (Codarts), where he studied both bass guitar and upright bass with teachers including Frans van Geest, Alessandro Fongaro, Marius Beets and Stefan Lievestro.
         <br><br>
-            Lars has shared the stage or the studio with musicians such as John Helliwell, Benjamin Herman, Efraïm Trujillo, Bart Wirtz, Andy Scott, Nils van Haften, and others.
+            Lars has shared the stage or the studio with musicians such as John Helliwell, Benjamin Herman, Efraïm Trujillo, Bart Wirtz, Andy Scott, Nils van Haften, Marc Scholten and others.
 "/>
 
                 <ContentImage imageUrl="/images/owee.jpg" linkUrl="bands" buttonUrl="bands"/>

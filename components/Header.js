@@ -17,6 +17,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
 import MailIcon from '@mui/icons-material/Mail';
 import PersonIcon from '@mui/icons-material/Person';
+import SmartDisplayIcon from '@mui/icons-material/SmartDisplay';
 import Menu from '@mui/icons-material/Menu';
 import Link from "next/link";
 import {useState} from "react";
@@ -24,10 +25,10 @@ import {useState} from "react";
 
 const nav = [
     {url: '/', label: 'Home', icon: <HomeIcon/>},
-    {url: '/bands', label: 'Bands', icon: <MusicNoteIcon/>},
-    {url: '/bio', label: 'Bio', icon: <PersonIcon/>},
-    {url: '/shows', label: 'Shows', icon: <CalendarMonthIcon/>},
-    {url: '/store', label: 'Store', icon: <ShoppingCartIcon/>},
+    {url: '/bands', label: 'Projects', icon: <MusicNoteIcon/>},
+    {url: '/bio', label: 'About', icon: <PersonIcon/>},
+    {url: '/shows', label: 'Agenda', icon: <CalendarMonthIcon/>},
+    {url: '/watch', label: 'Watch', icon: <SmartDisplayIcon/>},
     {url: '/contact', label: 'Contact', icon: <MailIcon/>},
 ]
 

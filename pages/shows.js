@@ -17,7 +17,7 @@ import {format} from 'date-fns'
 
 
 const Shows = ({events}) => (
-    <Layout pagetype="shows">
+    <Layout pagetype="agenda">
         <div className={utilStyles.gridwrapper}>
             <Box>
                 <Timeline position="alternate">
