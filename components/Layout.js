@@ -13,7 +13,7 @@ const coverImgs = {
     '/bio': '/images/IMG_9127.jpg',
     '/shows': '/images/flow4.jpg',
     '/store': '/images/sbresized.jpg',
-    '/contact': '/images/flow.jpg',
+    '/contact': '/images/tpm1.jpg',
     '/watch': '/images/GL-174.jpg',
     '/bands/olivegreen': '/images/olivegreen.jpg',
 }
