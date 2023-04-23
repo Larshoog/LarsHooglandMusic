@@ -52,7 +52,7 @@ const Shows = ({events}) => (
     </Layout>
 )
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
     const SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRSU0MlUG4al6Ip3Wvbhq4NKzpNMiutI3W-gBdZvXRZadj9D9-lSkIRs0X6-iVWf39eVqlyqpnSlFBy/pub?gid=0&single=true&output=csv"
 
     const response = await fetch(SHEET_URL)
@@ -70,7 +70,7 @@ export async function getServerSideProps() {
         // Next.js will attempt to re-generate the page:
         // - When a request comes in
         // - At most once every 5 minutes
-        // revalidate: 60 * 5
+        revalidate: 60 * 5
     }
 }
 
