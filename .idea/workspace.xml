@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="711e0122-736f-485f-b960-bfa0a949bb1b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data.json" afterDir="false" />
+    <list default="true" id="711e0122-736f-485f-b960-bfa0a949bb1b" name="Changes" comment="Kleine fixes, mobile menu">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/bands/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/bands/[id].js" afterDir="false" />
     </list>
     <list id="81835202-5839-4fa4-a46f-45c7f251ca18" name="Changes by matthijs" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +31,16 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pages/store.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/components/Header.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pages/_app.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/node_modules/gapi-script/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/styles/global.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/components/layout.module.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/components/Layout.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -46,9 +60,11 @@
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="16.13.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.45" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MANDE" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -60,6 +76,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\larsh\Documents\dev\LarsHooglandMusic\pages" />
       <recent name="C:\Users\larsh\Documents\dev\LarsHooglandMusic\lib" />
       <recent name="C:\Users\larsh\Documents\dev\LarsHooglandMusic\nextjs-blog\pages" />
     </key>
@@ -110,7 +127,23 @@
       <workItem from="1661848929087" duration="4526000" />
       <workItem from="1661949858231" duration="2481000" />
       <workItem from="1662836787375" duration="322000" />
-      <workItem from="1668264333734" duration="1102000" />
+      <workItem from="1668264333734" duration="1938000" />
+      <workItem from="1670245875587" duration="1354000" />
+      <workItem from="1670265514509" duration="149000" />
+      <workItem from="1675010468759" duration="824000" />
+      <workItem from="1675336205570" duration="2418000" />
+      <workItem from="1675444146379" duration="1261000" />
+      <workItem from="1675454005221" duration="538000" />
+      <workItem from="1681290759587" duration="6933000" />
+      <workItem from="1681679034613" duration="5856000" />
+      <workItem from="1681715526700" duration="2390000" />
+      <workItem from="1681739535200" duration="4006000" />
+      <workItem from="1682007317233" duration="727000" />
+      <workItem from="1682170551029" duration="2096000" />
+      <workItem from="1682229068930" duration="594000" />
+      <workItem from="1682274682517" duration="360000" />
+      <workItem from="1682324075632" duration="2924000" />
+      <workItem from="1682418421547" duration="800000" />
     </task>
     <task id="LOCAL-00001" summary="Update met Matthijs">
       <created>1657749863341</created>
@@ -322,7 +355,70 @@
       <option name="project" value="LOCAL" />
       <updated>1668265321556</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Kleine fixes, mobile menu">
+      <created>1668265615707</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1668265615707</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Kleine fixes, mobile menu">
+      <created>1681681773213</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1681681773213</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Images + code cleanup">
+      <created>1681684189193</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1681684189193</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Changes by mkok">
+      <created>1681715712527</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1681715712527</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Kleine fixes, mobile menu">
+      <created>1681743106069</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1681743106069</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Kleine fixes, mobile menu">
+      <created>1682007967338</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1682007967338</updated>
+    </task>
+    <task id="LOCAL-00037" summary="incremental static regen">
+      <created>1682170856989</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1682170856989</updated>
+    </task>
+    <task id="LOCAL-00038" summary="serverside rendering">
+      <created>1682274866190</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1682274866190</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Images + fixes">
+      <created>1682418477795</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1682418477795</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,8 +448,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update met Matthijs" />
-    <MESSAGE value="Update 2 met Matthijs" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Fixed .idea" />
     <MESSAGE value="Removed audioplayer dependency" />
@@ -373,8 +467,13 @@
     <MESSAGE value="gigs and store pages" />
     <MESSAGE value="Mobile overhaul + footer" />
     <MESSAGE value="Content component overhaul" />
+    <MESSAGE value="Images + code cleanup" />
+    <MESSAGE value="Changes by mkok" />
     <MESSAGE value="Kleine fixes, mobile menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kleine fixes, mobile menu" />
+    <MESSAGE value="incremental static regen" />
+    <MESSAGE value="serverside rendering" />
+    <MESSAGE value="Images + fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Images + fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

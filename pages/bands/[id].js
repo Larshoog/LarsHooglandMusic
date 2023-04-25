@@ -27,21 +27,21 @@ const Bands = () => (
 
 export default Bands
 
-export async function getStaticPaths() {
-    // Return a list of possible value for id
-    const id = getAllBandIds();
-    return {
-        id,
-        fallback: false,
-    };
-}
-
-export async function getStaticProps({params}) {
-    // Fetch necessary data for the blog post using params.id
-    const bandData = getBandData(params.id);
-    return {
-        props: {
-            bandData,
-        },
-    };
-}
+// export async function getStaticPaths() {
+//     // Return a list of possible value for id
+//     const id = getAllBandIds();
+//     return {
+//         id,
+//         fallback: false,
+//     };
+// }
+//
+// export async function getStaticProps({params}) {
+//     // Fetch necessary data for the blog post using params.id
+//     const bandData = getBandData(params.id);
+//     return {
+//         props: {
+//             bandData,
+//         },
+//     };
+// }
