@@ -15,7 +15,7 @@ const coverImgs = {
     '/store': '/images/sbresized.jpg',
     '/contact': '/images/tpm1.jpg',
     '/watch': '/images/GL-174.jpg',
-    '/bands/olivegreen': '/images/olivegreen.jpg',
+    '/bands/[id]': '/images/olivegreen.jpg',
 }
 
 const Layout = ({ children, pagetype }) => {
