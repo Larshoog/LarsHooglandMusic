@@ -14,7 +14,7 @@ const coverImgs = {
     '/shows': '/images/flow4.jpg',
     '/store': '/images/sbresized.jpg',
     '/contact': '/images/tpm1.jpg',
-    '/watch': '/images/GL-174.jpg',
+    '/watch': '/images/GL-174resized.jpg',
     '/bands/[id]': '/images/olivegreen.jpg',
 }
 
