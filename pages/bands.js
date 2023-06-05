@@ -13,13 +13,14 @@ const Bands = () => (
                 <Section key={band.id}>
                     <ContentImage
                         imageUrl={band.imageUrl}
-                        linkUrl={band.buttonUrl}
+                        linkUrl={"bands/" + band.id}
 
                     />
                     <ContentText
                         title={band.name}
                         text={band.text}
-                        buttonUrl={band.buttonUrl}
+                        buttonUrl={"bands/" + band.id}
+                        buttonText="More Info"
                     />
                 </Section>
             ))}
@@ -36,6 +37,7 @@ const Bands = () => (
                         title={band.name}
                         text={band.text}
                         buttonUrl={band.buttonUrl}
+                        buttonText="More Info"
                     />
                 </Section>
             ))}

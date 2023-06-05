@@ -11,11 +11,17 @@ const coverImgs = {
     '/': '/images/IMG_6515.jpg',
     '/bands': '/images/IMG_6424.jpg',
     '/bio': '/images/IMG_9127.jpg',
-    '/shows': '/images/flow4.jpg',
+    '/shows': '/images/jjpica.jpg',
     '/store': '/images/sbresized.jpg',
     '/contact': '/images/tpm1.jpg',
     '/watch': '/images/GL-174resized.jpg',
-    '/bands/[id]': '/images/olivegreen.jpg',
+    '/bands/olive-green': '/images/og.png',
+    '/bands/bebop-poetry': '/images/beboppoetry.jpg',
+    '/bands/lars-hoogland-trio': '/images/tmp2resized.jpg',
+    '/bands/salted-butter': '/images/IMG_9462.jpg',
+    '/bands/between-the-lines': '/images/IMG_6424.jpg',
+    '/bands/artoise': '/images/IMG_9246.jpg',
+    '/bands/kris-ransijn-trio': '/images/olivegreen.jpg',
 }
 
 const Layout = ({ children, pagetype }) => {
@@ -27,7 +33,7 @@ const Layout = ({ children, pagetype }) => {
                 <link rel="icon" href="/favicon.ico"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
             </Head>
-            <Header pagetype={pagetype} imageUrl={coverImgs[router.pathname] ?? '/images/IMG_6515.jpg'}/>
+            <Header pagetype={pagetype} imageUrl={coverImgs[router.asPath] ?? '/images/IMG_6515.jpg'}/>
             <main>
                 {children}
                 <Footer />

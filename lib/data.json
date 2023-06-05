@@ -1,60 +1,76 @@
 {
   "bands": [
     {
-      "id": "1",
+      "id": "olive-green",
+      "name": "Olive Green",
+      "bio": ["OLIVE GREEN is het nieuwste project van bassist Lars Hoogland (1998) en pianiste Elbrich van Stralen (?). Na jaren speelervaring in andere formaties, slaan Lars en Elbrich nu de handen ineen en vormen een fris jazzduo. Samen spelen ze intieme akoestische jazz muziek en verzorgen daarmee een ontspannen sfeer, perfect voor diners, borrels en bruiloften!", "Flexibiliteit is waar het om draait bij OLIVE GREEN. Het duo snapt precies welke muziek bij uw evenement past en stelt haar repertoire per optreden af. Zowel bij het voorbereiden als bij het optreden zelf wordt er goed opgelet dat de muziek prettig is voor het evenement, qua stijl én volume. Het repertoire bestaat uit swingende jazz-standards, tedere ballads en frisse latin. In deze nummers staat improvisatie centraal: Lars en Elbrich dagen elkaar constant muzikaal uit, en zijn steeds bezig met elkaar zoeken en vinden in hun improvisaties.", "De kern van de band bestaat uit contrabas en piano. Op verzoek kan de band worden uitgebreid met saxofoon, zang, of zelfs drums, onder de naam OLIVE GREEN: EXTRA VIERGE. "],
+      "text": ["When spoken word artist Kenny Gomes meets Martijn van Ditshuizen's jazz quartet, magic happens. Composition and improvisation blend together seamlessly as the audience is taken on a captivating journey."],
+      "imageUrl": "/images/og.png",
+      "buttonUrl": "https://www.youtube.com/watch?v=0CNupWPZn9s"
+    },
+    {
+      "id": "bebop-poetry",
       "name": "Bebop Poetry",
-      "text": "When spoken word artist Kenny Gomes meets Martijn van Ditshuizen's jazz quartet, magic happens. Composition and improvisation blend together seamlessly as the audience is taken on a captivating journey.",
+      "bio": ["bla", "bla", "bla"],
+      "text": ["When spoken word artist Kenny Gomes meets Martijn van Ditshuizen's jazz quartet, magic happens. Composition and improvisation blend together seamlessly as the audience is taken on a captivating journey."],
       "imageUrl": "/images/beboppoetry.jpg",
       "buttonUrl": "https://www.youtube.com/watch?v=0CNupWPZn9s"
     },
     {
-      "id": "2",
+      "id": "artoise",
       "name": "Artoise Big Band",
-      "text": "Artoise Big Band is a modern big band, incorporating both jazz, funk, soul and pop music in their performances. The band was formed during Lars' studies at Codarts, conservatory of Rotterdam.",
+      "bio": ["bla", "bla", "bla"],
+      "text": ["Artoise Big Band is a modern big band, incorporating both jazz, funk, soul and pop music in their performances. The band was formed during Lars' studies at Codarts, conservatory of Rotterdam."],
       "imageUrl": "/images/IMG_9246.jpg",
       "buttonUrl": "https://www.artoisefunkcollective.com/"
     },
     {
-      "id": "3",
+      "id": "lars-hoogland-trio",
       "name": "Lars Hoogland Trio",
-      "text": "Driven by their love for post-bop, the Lars Hoogland Trio plays fresh arrangements of their favourite tunes, as well as some original compositions. The trio consists of Lars’ longtime collaborator Luuk Withagen on the drums, Lars Hoogland on bass, and Elbrich van Stralen on piano.",
+      "bio": ["bla", "bla", "bla"],
+      "text": ["Driven by their love for post-bop, the Lars Hoogland Trio plays fresh arrangements of their favourite tunes, as well as some original compositions. The trio consists of Lars’ longtime collaborator Luuk Withagen on the drums, Lars Hoogland on bass, and Elbrich van Stralen on piano."],
       "imageUrl": "/images/tpm1resized.jpg",
       "buttonUrl": "https://www.instagram.com/stories/highlights/18011649949580662/"
     },
     {
-      "id": "4",
+      "id": "salted-butter",
       "name": "Jazzduo Salted Butter",
-      "text": "Butter is the basis of any great sandwich, but it has little flavor of its own. Much like the jazz standard, adding just a pinch of salt will make it a lot more interesting. Jazzduo Salted Butter takes the Jazz Standard with a grain of salt for a tasteful and innovative performance. ",
+      "bio": ["bla", "bla", "bla"],
+      "text": ["Butter is the basis of any great sandwich, but it has little flavor of its own. Much like the jazz standard, adding just a pinch of salt will make it a lot more interesting. Jazzduo Salted Butter takes the Jazz Standard with a grain of salt for a tasteful and innovative performance. "],
       "imageUrl": "/images/sbresized.jpg",
       "buttonUrl": "https://drive.google.com/drive/folders/1W_4AbE0y8jDZ1u4k2ZRfHtOBAbgdBa_O?usp=sharing"
     },
     {
-      "id": "5",
+      "id": "between-the-lines",
       "name": "Between the Lines",
-      "text": "Take a trip to New Orleans, marching with one of the second lines through the streets until the early hours of the morning.",
+      "bio": ["bla", "bla", "bla"],
+      "text": ["Take a trip to New Orleans, marching with one of the second lines through the streets until the early hours of the morning."],
       "imageUrl": "/images/IMG_6424.jpg",
       "buttonUrl": "https://drive.google.com/file/d/1ISHcW9zuvhFS_9dGF_i2vc4TGo5hEPnW/view?usp=share_link"
     },
     {
-      "id": "6",
+      "id": "kris-ransijn-trio",
       "name": "Kris Ransijn Trio",
-      "text": "Kris Ransijn Trio consists of three young driven musicians. They play surprising and refreshing compositions based on experiences, emotions and musical styles from every corner of the world.",
+      "bio": ["bla", "bla", "bla"],
+      "text": ["Kris Ransijn Trio consists of three young driven musicians. They play surprising and refreshing compositions based on experiences, emotions and musical styles from every corner of the world."],
       "imageUrl": "/images/IMG_9503.jpg",
       "buttonUrl": "https://songwhip.com/larshoogland/yagan"
     }
   ],
   "specialbands": [
     {
-      "id": "100",
+      "id": "bc-west",
       "name": "Blazers Collectief West",
-      "text": "Blazers Collectief West was founded for the Westland new years' concert. Directed by its musical leader Erik-Jan de With, the collective turned out to be a golden combination.",
+      "bio": ["bla", "bla", "bla"],
+      "text": ["Blazers Collectief West was founded for the Westland new years' concert. Directed by its musical leader Erik-Jan de With, the collective turned out to be a golden combination."],
       "imageUrl": "/images/westland.jpg",
       "buttonUrl": "https://www.youtube.com/watch?v=gp_cdSxK-Fs"
     },
     {
-      "id": "101",
+      "id": "hoogland-ransijn-van-stralen",
       "name": "Hoogland, Ransijn & van Stralen",
-      "text": "Lars Hoogland, Kris Ransijn and Elbrich van Stralen are constantly challenging, searching and finding each other in their improvisations.",
+      "bio": ["bla", "bla", "bla"],
+      "text": ["Lars Hoogland, Kris Ransijn and Elbrich van Stralen are constantly challenging, searching and finding each other in their improvisations."],
       "imageUrl": "/images/IMG_0669.JPG",
       "buttonUrl": "https://songwhip.com/larshoogland/yagan"
     }
