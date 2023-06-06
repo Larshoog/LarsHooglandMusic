@@ -29,6 +29,7 @@ const nav = [
     {url: '/bio', label: 'About', icon: <PersonIcon/>},
     {url: '/shows', label: 'Agenda', icon: <CalendarMonthIcon/>},
     {url: '/watch', label: 'Watch', icon: <SmartDisplayIcon/>},
+    {url: '/listen', label: 'Listen', icon: <MusicNoteIcon/>},
     {url: '/contact', label: 'Contact', icon: <MailIcon/>},
 ]
 

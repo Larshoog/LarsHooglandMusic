@@ -15,6 +15,7 @@ const coverImgs = {
     '/store': '/images/sbresized.jpg',
     '/contact': '/images/tpm1.jpg',
     '/watch': '/images/GL-174resized.jpg',
+    '/listen': '/images/yatjj.jpg',
     '/bands/olive-green': '/images/og.png',
     '/bands/bebop-poetry': '/images/BEL04218.jpg',
     '/bands/lars-hoogland-trio': '/images/tpm1resized.jpg',
