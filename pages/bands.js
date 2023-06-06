@@ -5,6 +5,7 @@ import ContentImage from "../components/ContentImage";
 import ContentText from "../components/ContentText";
 import bandInfo from '../lib/data.json'
 import ContentTextButtonless from "../components/Contentblock";
+import ContentImageLinkless from "../components/ContentImageLinkless";
 
 const Bands = () => (
     <Layout pagetype="projects" imageCredits="📷 by Kelly Alexandre">
@@ -29,11 +30,11 @@ const Bands = () => (
         <div className={utilStyles.gridwrapper}>
             {bandInfo.specialbands.map((band) => (
                 <Section key={band.id}>
-                    <ContentImage
+                    <ContentImageLinkless
                         imageUrl={band.imageUrl}
                         linkUrl={'bands'}
                     />
-                    <ContentText
+                    <ContentTextButtonless
                         title={band.name}
                         text={band.text}
                         buttonUrl={band.buttonUrl}

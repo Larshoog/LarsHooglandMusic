@@ -22,6 +22,7 @@ const coverImgs = {
     '/bands/between-the-lines': '/images/IMG_6424.jpg',
     '/bands/artoise': '/images/IMG_9246.jpg',
     '/bands/kris-ransijn-trio': '/images/IMG_9503.jpg',
+    '/bands/hoogland-quartet': '/images/owee.jpg',
 }
 
 const Layout = ({ children, pagetype, imageCredits }) => {
