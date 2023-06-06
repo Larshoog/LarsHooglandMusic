@@ -10,7 +10,7 @@ const opts = {
     width: "754",
 };
 const Watch = () => (
-    <Layout pagetype={"watch"}>
+    <Layout pagetype={"watch"} imageCredits="📷 by Paula Goldebeld">
         <div className={utilStyles.tubewrapper}>
             <YouTube videoId="OQsi0ZMnelc" opts={opts}/>
         </div>

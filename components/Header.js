@@ -33,7 +33,7 @@ const nav = [
 ]
 
 
-const Header = ({imageUrl, name, pagetype}) => {
+const Header = ({imageUrl, name, pagetype, imageCredits}) => {
     const [drawerOpen, setDrawerOpen] = useState(false)
 
     const toggleDrawer = (open) => (event) => {
@@ -53,6 +53,9 @@ const Header = ({imageUrl, name, pagetype}) => {
 
     return (
         <header className={styles.header}>
+            <div className={utilStyles.credits}>
+                <p>{imageCredits}</p>
+            </div>
             <Image
                 priority
                 src={imageUrl}

@@ -5,13 +5,14 @@ import Section from "../../components/Section";
 import ContentImage from "../../components/ContentImage";
 import ContentText from "../../components/ContentText";
 import { getAllBandIds, getBandData } from "../../lib/projects";
+import Lineup from "../../components/Lineup";
 
-const Bands = ({ id, name, bio, text, imageUrl, buttonUrl }) => (
-    <Layout pagetype={name}>
+const Bands = ({ id, name, bio, text, imageUrl, buttonUrl, lineup, imageUrl2, imageCredits }) => (
+    <Layout pagetype={name} imageCredits={imageCredits}>
         <div className={utilStyles.gridwrapper}>
             <Section>
                 <ContentImage
-                    imageUrl={imageUrl}
+                    imageUrl={imageUrl2}
                     linkUrl={buttonUrl}
 
                 />
@@ -19,7 +20,12 @@ const Bands = ({ id, name, bio, text, imageUrl, buttonUrl }) => (
                     title={name}
                     text={bio}
                     buttonUrl={buttonUrl}
-                    buttonText={"Listen here!"}
+                    buttonText={"Luister hier!"}
+                />
+            </Section>
+            <Section>
+                <Lineup
+                text={lineup}
                 />
             </Section>
         </div>

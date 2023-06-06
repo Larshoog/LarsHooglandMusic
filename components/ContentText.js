@@ -8,11 +8,11 @@ const ContentText = ({title, text, buttonUrl, buttonText}) => (
         <h2 className={utilStyles.headingLg}>{title}</h2>
         {Array.isArray(text) ? text.map((t) => <p>{t}</p>) : text}
         <div className={utilStyles.buttoncontainer}>
-            <Button variant="contained" color="primary" startIcon={<MusicNoteIcon/>}>
-                <Link href={buttonUrl}>
-                    <a>{buttonText}</a>
-                </Link>
+            <Link href={buttonUrl} passHref>
+            <Button size="large" variant="contained" color="primary" startIcon={<MusicNoteIcon/>}>
+                <a>{buttonText}</a>
             </Button>
+            </Link>
         </div>
     </div>
 

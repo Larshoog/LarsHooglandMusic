@@ -19,7 +19,7 @@ In 2021, Lars released the album <i>Yagan</i> alongside fellow musicians Kris Ra
 <br><br>
 Today, Lars is making his mark on the music scene as a reliable musician that provides a strong foundation for his peers, while leaving space for improvisation and interaction."/>
 
-                <ContentImage imageUrl="/images/JustJazzFull.jpg" linkUrl="bands" buttonUrl="bands"/>
+                <ContentImage imageUrl="/images/IMG_6539.jpg" linkUrl="bands" buttonUrl="bands"/>
             </Section>
             <Section>
                 <ContentTextButtonless
@@ -29,10 +29,10 @@ Today, Lars is making his mark on the music scene as a reliable musician that pr
 <br><br>
     Afterwards, Lars enrolled in the Conservatory of Rotterdam (Codarts), where he studied both bass guitar and upright bass with teachers including Frans van Geest, Alessandro Fongaro, Marius Beets and Stefan Lievestro.
         <br><br>
-            Lars has shared the stage or the studio with musicians such as John Helliwell, Benjamin Herman, Efraïm Trujillo, Bart Wirtz, Andy Scott, Nils van Haften, Marc Scholten and others.
+            Lars has shared the stage or the studio with musicians such as John Helliwell, Benjamin Herman, Efraïm Trujillo, Bart Wirtz, Andy Scott, Nils van Haften, Marc Scholten, Bob Wijnen, Marjorie Barnes and others.
 "/>
 
-                <ContentImage imageUrl="/images/owee.jpg" linkUrl="bands" buttonUrl="bands"/>
+                <ContentImage imageUrl="/images/IMG_9470.jpg" linkUrl="bands" buttonUrl="bands"/>
             </Section>
         </div>
     </Layout>

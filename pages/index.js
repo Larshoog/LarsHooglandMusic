@@ -4,7 +4,7 @@ import ContentImage from "../components/ContentImage";
 import Section from "../components/Section";
 
 const Index = () => (
-    <Layout pagetype="home">
+    <Layout pagetype="home" imageCredits="📷 by Kelly Alexandre">
         <div className={utilStyles.gridwrapper}>
             <Section>
                 <ContentImage imageUrl={'/images/IMG_6424.jpg'} linkUrl={'bands'}

@@ -7,7 +7,7 @@ import bandInfo from '../lib/data.json'
 import ContentTextButtonless from "../components/Contentblock";
 
 const Bands = () => (
-    <Layout pagetype="projects">
+    <Layout pagetype="projects" imageCredits="📷 by Kelly Alexandre">
         <div className={utilStyles.gridwrapper}>
             {bandInfo.bands.map((band) => (
                 <Section key={band.id}>
@@ -20,12 +20,12 @@ const Bands = () => (
                         title={band.name}
                         text={band.text}
                         buttonUrl={"bands/" + band.id}
-                        buttonText="More Info"
+                        buttonText="Meer Info"
                     />
                 </Section>
             ))}
         </div>
-        <div className={utilStyles.headingLg}><h1>SPECIAL PROJECTS</h1></div>
+        <div className={utilStyles.headingLg}><h1>AS A SIDEMAN</h1></div>
         <div className={utilStyles.gridwrapper}>
             {bandInfo.specialbands.map((band) => (
                 <Section key={band.id}>
@@ -37,7 +37,7 @@ const Bands = () => (
                         title={band.name}
                         text={band.text}
                         buttonUrl={band.buttonUrl}
-                        buttonText="More Info"
+                        buttonText="Meer Info"
                     />
                 </Section>
             ))}

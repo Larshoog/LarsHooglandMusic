@@ -2,77 +2,114 @@
   "bands": [
     {
       "id": "olive-green",
-      "name": "Olive Green",
+      "name": "Jazzduo Olive Green",
       "bio": ["OLIVE GREEN is het nieuwste project van bassist Lars Hoogland (1998) en pianiste Elbrich van Stralen (?). Na jaren speelervaring in andere formaties, slaan Lars en Elbrich nu de handen ineen en vormen een fris jazzduo. Samen spelen ze intieme akoestische jazz muziek en verzorgen daarmee een ontspannen sfeer, perfect voor diners, borrels en bruiloften!", "Flexibiliteit is waar het om draait bij OLIVE GREEN. Het duo snapt precies welke muziek bij uw evenement past en stelt haar repertoire per optreden af. Zowel bij het voorbereiden als bij het optreden zelf wordt er goed opgelet dat de muziek prettig is voor het evenement, qua stijl én volume. Het repertoire bestaat uit swingende jazz-standards, tedere ballads en frisse latin. In deze nummers staat improvisatie centraal: Lars en Elbrich dagen elkaar constant muzikaal uit, en zijn steeds bezig met elkaar zoeken en vinden in hun improvisaties.", "De kern van de band bestaat uit contrabas en piano. Op verzoek kan de band worden uitgebreid met saxofoon, zang, of zelfs drums, onder de naam OLIVE GREEN: EXTRA VIERGE. "],
-      "text": ["When spoken word artist Kenny Gomes meets Martijn van Ditshuizen's jazz quartet, magic happens. Composition and improvisation blend together seamlessly as the audience is taken on a captivating journey."],
+      "text": ["OLIVE GREEN is het nieuwste project van bassist Lars Hoogland (1998) en pianiste Elbrich van Stralen (?). Na jaren speelervaring in andere formaties, slaan Lars en Elbrich nu de handen ineen en vormen een fris jazzduo. Samen spelen ze intieme akoestische jazz muziek en verzorgen daarmee een ontspannen sfeer, perfect voor diners, borrels en bruiloften!"],
       "imageUrl": "/images/og.png",
-      "buttonUrl": "https://www.youtube.com/watch?v=0CNupWPZn9s"
+      "imageUrl2": "/images/olivegreen.jpg",
+      "buttonUrl": "https://www.youtube.com/watch?v=0CNupWPZn9s",
+      "lineup": ["LARS HOOGLAND - Contrabas", "ELBRICH VAN STRALEN - Piano"],
+      "imageCredits": ""
     },
     {
       "id": "bebop-poetry",
       "name": "Bebop Poetry",
-      "bio": ["bla", "bla", "bla"],
-      "text": ["When spoken word artist Kenny Gomes meets Martijn van Ditshuizen's jazz quartet, magic happens. Composition and improvisation blend together seamlessly as the audience is taken on a captivating journey."],
-      "imageUrl": "/images/beboppoetry.jpg",
-      "buttonUrl": "https://www.youtube.com/watch?v=0CNupWPZn9s"
-    },
-    {
-      "id": "artoise",
-      "name": "Artoise Big Band",
-      "bio": ["bla", "bla", "bla"],
-      "text": ["Artoise Big Band is a modern big band, incorporating both jazz, funk, soul and pop music in their performances. The band was formed during Lars' studies at Codarts, conservatory of Rotterdam."],
-      "imageUrl": "/images/IMG_9246.jpg",
-      "buttonUrl": "https://www.artoisefunkcollective.com/"
+      "bio": ["Bebop Poetry is een band die in 2021 werd gevormd en die een unieke mix van spoken word, jazz en\nstorytelling brengt. De band bestaat uit vijf getalenteerde muzikanten: spoken word artiest Kenny\nGomes, saxofonist Martijn van Ditshuizen, bassist Lars Hoogland, drummer Rafael Slors en pianist\nGabo Vos.", "Kenny en Martijn ontmoetten elkaar tijdens het theaterstuk \"Cirkels 2.0\", waarin Kenny zijn\npersoonlijke ervaringen en struggles met zijn vader deelde. De twee raakten al snel geïnspireerd door\nelkaars creativiteit en besloten samen te werken aan een project dat hun passie voor muziek en\npoëzie zou combineren.", "Met Lars op bas, Rafael op drums en Gabo op piano, begonnen ze samen te werken aan hun unieke\ngeluid, waarbij ze jazz- en spoken word-elementen combineerden om verhalen te vertellen die\ndiepgang en betekenis hebben. Hun optredens zijn altijd een intense ervaring, waarbij de luisteraars\nworden meegenomen op een reis vol emotie en verbeelding."],
+      "text": ["Wanneer spoken word artiest Kenny Gomes zich verrijkt met Martijn van Ditshuizen's jazzquartet, ontstaat er iets magisch. Compositie en improvisatie voegen zich naadloos samen terwijl het publiek wordt meegenomen op een fascinerende reis."],
+      "imageUrl2": "/images/beboppoetry.jpg",
+      "imageUrl": "/images/BEL04218.jpg",
+      "buttonUrl": "https://www.youtube.com/watch?v=0CNupWPZn9s",
+      "lineup": ["LARS HOOGLAND - Contrabas", "KENNY GOMES - Spoken Word", "GABO VOS - Piano", "MARTIJN VAN DITSHUIZEN - Saxofoon","RAFAEL SLORS - Drums"],
+      "imageCredits": "📷 by Houcem Bellakoud"
     },
     {
       "id": "lars-hoogland-trio",
       "name": "Lars Hoogland Trio",
-      "bio": ["bla", "bla", "bla"],
-      "text": ["Driven by their love for post-bop, the Lars Hoogland Trio plays fresh arrangements of their favourite tunes, as well as some original compositions. The trio consists of Lars’ longtime collaborator Luuk Withagen on the drums, Lars Hoogland on bass, and Elbrich van Stralen on piano."],
-      "imageUrl": "/images/tpm1resized.jpg",
-      "buttonUrl": "https://www.instagram.com/stories/highlights/18011649949580662/"
+      "bio": ["Coming soon!"],
+      "text": ["Gedreven door hun liefde voor post-bop, speelt het Lars Hoogland Trio verse arrangementen van hun favoriete nummers, samen met eigen composities. Het trio bestaat uit Luuk Withagen op drums, Lars Hoogland op bas, en Elbrich van Stralen op piano."],
+      "imageUrl": "/images/tpm1rand.jpg",
+      "imageUrl2": "/images/tpm1resized.jpg",
+      "buttonUrl": "https://www.instagram.com/stories/highlights/18011649949580662/",
+      "lineup": ["LARS HOOGLAND - Contrabas", "ELBRICH VAN STRALEN - Piano","LUUK WITHAGEN - Drums"],
+      "imageCredits": ""
     },
     {
       "id": "salted-butter",
       "name": "Jazzduo Salted Butter",
-      "bio": ["bla", "bla", "bla"],
-      "text": ["Butter is the basis of any great sandwich, but it has little flavor of its own. Much like the jazz standard, adding just a pinch of salt will make it a lot more interesting. Jazzduo Salted Butter takes the Jazz Standard with a grain of salt for a tasteful and innovative performance. "],
+      "bio": ["Boter is de basis van iedere goede boterham, maar er is op zich weinig smaak aan. Het is net als de Jazzstandard, je moet er een beetje zout aan toevoegen om het interessant te maken. Jazzduo Salted Butter neemt de Jazzstandard met een korreltje zout voor een smaakvol en innoverend optreden."],
+      "text": ["Boter is de basis van iedere goede boterham, maar er is op zich weinig smaak aan. Het is net als de Jazzstandard, je moet er een beetje zout aan toevoegen om het interessant te maken. Jazzduo Salted Butter neemt de Jazzstandard met een korreltje zout voor een smaakvol en innoverend optreden."],
       "imageUrl": "/images/sbresized.jpg",
-      "buttonUrl": "https://drive.google.com/drive/folders/1W_4AbE0y8jDZ1u4k2ZRfHtOBAbgdBa_O?usp=sharing"
+      "imageUrl2": "/images/sbresized.jpg",
+      "buttonUrl": "https://drive.google.com/drive/folders/1W_4AbE0y8jDZ1u4k2ZRfHtOBAbgdBa_O?usp=sharing",
+      "lineup": ["LARS HOOGLAND - Contrabas", "INGO NETTERSHEIM - Gitaar"],
+      "imageCredits": "\uD83D\uDCF7 by Paula Goldebeld"
     },
     {
-      "id": "between-the-lines",
-      "name": "Between the Lines",
-      "bio": ["bla", "bla", "bla"],
-      "text": ["Take a trip to New Orleans, marching with one of the second lines through the streets until the early hours of the morning."],
-      "imageUrl": "/images/IMG_6424.jpg",
-      "buttonUrl": "https://drive.google.com/file/d/1ISHcW9zuvhFS_9dGF_i2vc4TGo5hEPnW/view?usp=share_link"
-    },
-    {
-      "id": "kris-ransijn-trio",
-      "name": "Kris Ransijn Trio",
-      "bio": ["bla", "bla", "bla"],
-      "text": ["Kris Ransijn Trio consists of three young driven musicians. They play surprising and refreshing compositions based on experiences, emotions and musical styles from every corner of the world."],
-      "imageUrl": "/images/IMG_9503.jpg",
-      "buttonUrl": "https://songwhip.com/larshoogland/yagan"
+      "id": "hoogland-quartet",
+      "name": "Hoogland Quartet",
+      "bio": ["Hoogland Quartet is een jazzquartet bestaande uit een zangeres, pianist, contrabassist en drummer en is dé passende muzikale omlijsting voor uw evenement, of dat nou een borrel, feest of een bruiloft is!\nHet quartet schakelt moeiteloos van stijlvolle achtergrondmuziek naar swingende dansmuziek en past zich altijd zo goed mogelijk aan uw wensen.\nHet repertoire bestaat voornamelijk uit jazzstandards en enkele frisse versies van modernere nummers. Op verzoek kunnen er ook altijd specifieke nummers ingestudeerd worden."],
+      "text": ["Hoogland Quartet is een jazzquartet bestaande uit een zangeres, pianist, contrabassist en drummer en is dé passende muzikale omlijsting voor uw evenement, of dat nou een borrel, feest of een bruiloft is!\nHet quartet schakelt moeiteloos van stijlvolle achtergrondmuziek naar swingende dansmuziek en past zich altijd zo goed mogelijk aan uw wensen."],
+      "imageUrl": "/images/Hoogland4.jpg",
+      "imageUrl2": "/images/Hoogland5.jpg",
+      "buttonUrl": "https://songwhip.com/larshoogland/yagan",
+      "lineup": ["LARS HOOGLAND - Contrabas", "KRIS RANSIJN - Gitaar", "LUUK WITHAGEN - Drums"],
+      "imageCredits": "\uD83D\uDCF7 by Paula Goldebeld"
     }
   ],
   "specialbands": [
     {
+      "id": "Van-Stralen-Quintet",
+      "name": "Van Stralen Quintet",
+      "text": ["Lars Hoogland, Kris Ransijn and Elbrich van Stralen are constantly challenging, searching and finding each other in their improvisations."],
+      "imageUrl": "/images/GL-210.JPG",
+      "buttonUrl": "https://songwhip.com/larshoogland/yagan"
+    },
+    {
+      "id": "artoise",
+      "name": "Artoise Big Band",
+      "bio": ["Coming soon!"],
+      "text": ["Artoise Big Band is a modern big band, incorporating both jazz, funk, soul and pop music in their performances. The band was formed during Lars' studies at Codarts, conservatory of Rotterdam."],
+      "imageUrl": "/images/IMG_9246.jpg",
+      "imageUrl2": "/images/IMG_9246.jpg",
+      "buttonUrl": "https://www.artoisefunkcollective.com/",
+      "imageCredits": ""
+    },
+    {
+      "id": "yiska-and-the-jazzketeers",
+      "name": "Yiska and the Jazzketeers",
+      "text": ["Lars Hoogland, Kris Ransijn and Elbrich van Stralen are constantly challenging, searching and finding each other in their improvisations."],
+      "imageUrl": "/images/yatjj.jpg",
+      "buttonUrl": "https://songwhip.com/larshoogland/yagan"
+    },
+    {
+      "id": "kris-ransijn-trio",
+      "name": "Kris Ransijn Trio",
+      "bio": ["Coming soon!"],
+      "text": ["Kris Ransijn Trio consists of three young driven musicians. They play surprising and refreshing compositions based on experiences, emotions and musical styles from every corner of the world."],
+      "imageUrl": "/images/IMG_9503.jpg",
+      "imageUrl2": "/images/IMG_9488.jpg",
+      "buttonUrl": "https://songwhip.com/larshoogland/yagan",
+      "lineup": ["LARS HOOGLAND - Contrabas", "KRIS RANSIJN - Gitaar", "LUUK WITHAGEN - Drums"],
+      "imageCredits": "\uD83D\uDCF7 by Paula Goldebeld"
+    },
+    {
+      "id": "between-the-lines",
+      "name": "Between the Lines",
+      "bio": ["Coming soon!"],
+      "text": ["Take a trip to New Orleans, marching with one of the second lines through the streets until the early hours of the morning."],
+      "imageUrl": "/images/IMG_6424.jpg",
+      "imageUrl2": "/images/IMG_6444.jpg",
+      "buttonUrl": "https://drive.google.com/file/d/1ISHcW9zuvhFS_9dGF_i2vc4TGo5hEPnW/view?usp=share_link",
+      "lineup": ["LARS HOOGLAND - Contrabas", "ADRIAAN KOSTER - Drums", "GABO VOS - Piano", "THOMAS HEIKOOP - TROMPET", "DAAN KLUWER - SAXOFOON", "JAKOB LEBAN - TROMBONE"],
+      "imageCredits": "📷 by Kelly Alexandre"
+    },
+    {
       "id": "bc-west",
       "name": "Blazers Collectief West",
-      "bio": ["bla", "bla", "bla"],
+      "bio": ["Coming soon!"],
       "text": ["Blazers Collectief West was founded for the Westland new years' concert. Directed by its musical leader Erik-Jan de With, the collective turned out to be a golden combination."],
       "imageUrl": "/images/westland.jpg",
       "buttonUrl": "https://www.youtube.com/watch?v=gp_cdSxK-Fs"
-    },
-    {
-      "id": "hoogland-ransijn-van-stralen",
-      "name": "Hoogland, Ransijn & van Stralen",
-      "bio": ["bla", "bla", "bla"],
-      "text": ["Lars Hoogland, Kris Ransijn and Elbrich van Stralen are constantly challenging, searching and finding each other in their improvisations."],
-      "imageUrl": "/images/IMG_0669.JPG",
-      "buttonUrl": "https://songwhip.com/larshoogland/yagan"
     }
   ],
   "gigs": [
