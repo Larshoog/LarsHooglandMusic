@@ -13,7 +13,8 @@ const Listen = () => (
     <Layout pagetype={"Listen"} imageCredits="📷 by Paula Goldebeld">
        <div className={utilStyles.spotifycontainer}>
         <iframe
-                src="https://open.spotify.com/embed/playlist/7FRN9bwf5owU0ZEpVK3D3i?utm_source=generator" width="50%"
+            className={utilStyles.spotify}
+            src="https://open.spotify.com/embed/playlist/7FRN9bwf5owU0ZEpVK3D3i?utm_source=generator"
                 height="700" frameBorder="0" allowFullScreen=""
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                 loading="lazy"/>

@@ -20,7 +20,7 @@ const Shows = ({events}) => (
     <Layout pagetype="agenda" imageCredits="📷 by Veerle Bas">
         <div className={utilStyles.gridwrapper}>
             <Box>
-                <Timeline position="alternate">
+                <Timeline className={utilStyles.timeline} position="alternate">
                     {events?.map?.((event) => (
                         <TimelineItem key={0}>
                             <TimelineOppositeContent
@@ -31,13 +31,13 @@ const Shows = ({events}) => (
                             >
                                 {format(new Date(event.date), 'dd MMM yyyy')}
                             </TimelineOppositeContent>
-                            <TimelineSeparator>
+                            <TimelineSeparator className={utilStyles.timesep}>
                                 <TimelineConnector/>
-                                <TimelineDot color="primary">
+                                <TimelineDot color="primary" className={utilStyles.timesep}>
                                     <MusicIcon/>
                                 </TimelineDot>
                                 <TimelineConnector/>
-                            </TimelineSeparator>
+                            </TimelineSeparator >
                             <TimelineContent sx={{py: '12px', px: 2}}>
                                 <Typography variant="h4" component="span">{event.title}</Typography>
                                 {event.linkUrl && (

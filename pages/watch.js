@@ -12,13 +12,13 @@ const opts = {
 const Watch = () => (
     <Layout pagetype={"watch"} imageCredits="📷 by Paula Goldebeld">
         <div className={utilStyles.tubewrapper}>
-            <YouTube videoId="OQsi0ZMnelc" opts={opts}/>
+            <YouTube iframeClassName={utilStyles.yt} videoId="OQsi0ZMnelc" opts={opts}/>
         </div>
         <div className={utilStyles.tubewrapper}>
-            <YouTube videoId="EOwHNW2aA_4" opts={opts}/>
+            <YouTube iframeClassName={utilStyles.yt} videoId="EOwHNW2aA_4" opts={opts}/>
         </div>
         <div className={utilStyles.tubewrapper}>
-            <YouTube videoId="gp_cdSxK-Fs" opts={opts}/>
+            <YouTube iframeClassName={utilStyles.yt} videoId="gp_cdSxK-Fs" opts={opts}/>
         </div>
     </Layout>
 )
