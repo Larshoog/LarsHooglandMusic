@@ -16,7 +16,7 @@ const coverImgs = {
     '/contact': '/images/tpm1.jpg',
     '/watch': '/images/GL-174resized.jpg',
     '/listen': '/images/yatjj.jpg',
-    '/bands/olive-green': '/images/og.png',
+    '/bands/olive-green': '/images/elbrich.jpg',
     '/bands/bebop-poetry': '/images/BEL04218.jpg',
     '/bands/lars-hoogland-trio': '/images/tpm1resized.jpg',
     '/bands/salted-butter': '/images/IMG_9462.jpg',

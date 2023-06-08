@@ -25,11 +25,11 @@ import {useState} from "react";
 
 const nav = [
     {url: '/', label: 'Home', icon: <HomeIcon/>},
-    {url: '/bands', label: 'Projects', icon: <MusicNoteIcon/>},
-    {url: '/bio', label: 'About', icon: <PersonIcon/>},
+    {url: '/bands', label: 'Projecten', icon: <MusicNoteIcon/>},
+    {url: '/bio', label: 'Over', icon: <PersonIcon/>},
     {url: '/shows', label: 'Agenda', icon: <CalendarMonthIcon/>},
-    {url: '/watch', label: 'Watch', icon: <SmartDisplayIcon/>},
-    {url: '/listen', label: 'Listen', icon: <MusicNoteIcon/>},
+    {url: '/watch', label: 'Kijk', icon: <SmartDisplayIcon/>},
+    {url: '/listen', label: 'Luister', icon: <MusicNoteIcon/>},
     {url: '/contact', label: 'Contact', icon: <MailIcon/>},
 ]
 

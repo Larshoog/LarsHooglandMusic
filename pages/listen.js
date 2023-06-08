@@ -10,7 +10,7 @@ const opts = {
     width: "754",
 };
 const Listen = () => (
-    <Layout pagetype={"Listen"} imageCredits="📷 by Paula Goldebeld">
+    <Layout pagetype={"Luister"} imageCredits="📷 Veerle Bas">
        <div className={utilStyles.spotifycontainer}>
         <iframe
             className={utilStyles.spotify}

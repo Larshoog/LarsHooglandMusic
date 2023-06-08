@@ -5,11 +5,11 @@ import ContentImage from "../components/ContentImage";
 import ContentTextButtonless from "../components/Contentblock";
 
 const Bio = () => (
-    <Layout pagetype="about">
+    <Layout pagetype="over">
         <div className={utilStyles.gridwrapper}>
             <Section>
                 <ContentTextButtonless
-                    title="About"
+                    title="Over Lars"
                     linkUrl="bands"
                     buttonUrl="bands"
                     text="Lars Hoogland (1998) is an upcoming jazz bassist from the Netherlands. Lars finds his inspiration in legendary bassists such as Milt Hinton and Ron Carter.

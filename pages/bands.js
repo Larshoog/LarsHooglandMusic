@@ -8,7 +8,7 @@ import ContentTextButtonless from "../components/Contentblock";
 import ContentImageLinkless from "../components/ContentImageLinkless";
 
 const Bands = () => (
-    <Layout pagetype="projects" imageCredits="📷 by Kelly Alexandre">
+    <Layout pagetype="projecten" imageCredits="📷 Kelly Alexandre">
         <div className={utilStyles.gridwrapper}>
             {bandInfo.bands.map((band) => (
                 <Section key={band.id}>

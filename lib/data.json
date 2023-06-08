@@ -5,11 +5,11 @@
       "name": "Jazzduo Olive Green",
       "bio": ["OLIVE GREEN is het nieuwste project van bassist Lars Hoogland en pianiste Elbrich van Stralen. Na jaren speelervaring in andere formaties, slaan Lars en Elbrich nu de handen ineen en vormen een fris jazzduo. Samen spelen ze intieme akoestische jazz muziek en verzorgen daarmee een ontspannen sfeer, perfect voor diners, borrels en bruiloften!", "Flexibiliteit is waar het om draait bij OLIVE GREEN. Het duo snapt precies welke muziek bij uw evenement past en stelt haar repertoire per optreden af. Zowel bij het voorbereiden als bij het optreden zelf wordt er goed opgelet dat de muziek prettig is voor het evenement, qua stijl én volume. Het repertoire bestaat uit swingende jazz-standards, tedere ballads en frisse latin. In deze nummers staat improvisatie centraal: Lars en Elbrich dagen elkaar constant muzikaal uit, en zijn steeds bezig met elkaar zoeken en vinden in hun improvisaties.", "De kern van de band bestaat uit contrabas en piano. Op verzoek kan de band worden uitgebreid met saxofoon, zang, of zelfs drums, onder de naam OLIVE GREEN: EXTRA VIERGE. "],
       "text": ["OLIVE GREEN is het nieuwste project van bassist Lars Hoogland en pianiste Elbrich van Stralen. Na jaren speelervaring in andere formaties, slaan Lars en Elbrich nu de handen ineen en vormen een fris jazzduo. Samen spelen ze intieme akoestische jazz muziek en verzorgen daarmee een ontspannen sfeer, perfect voor diners, borrels en bruiloften!"],
-      "imageUrl": "/images/og.png",
-      "imageUrl2": "/images/olivegreen.jpg",
+      "imageUrl": "/images/elbrich.jpg",
+      "imageUrl2": "/images/elbrich.jpg",
       "buttonUrl": "https://www.youtube.com/watch?v=0CNupWPZn9s",
       "lineup": ["LARS HOOGLAND - Contrabas", "ELBRICH VAN STRALEN - Piano"],
-      "imageCredits": ""
+      "imageCredits": "\uD83D\uDCF7 Paula Goldebeld"
     },
     {
       "id": "bebop-poetry",
@@ -20,7 +20,7 @@
       "imageUrl": "/images/BEL04218.jpg",
       "buttonUrl": "https://www.youtube.com/watch?v=0CNupWPZn9s",
       "lineup": ["LARS HOOGLAND - Contrabas", "KENNY GOMES - Spoken Word", "GABO VOS - Piano", "MARTIJN VAN DITSHUIZEN - Saxofoon","RAFAEL SLORS - Drums"],
-      "imageCredits": "📷 by Houcem Bellakoud"
+      "imageCredits": "📷 Houcem Bellakoud"
     },
     {
       "id": "lars-hoogland-trio",
@@ -42,7 +42,7 @@
       "imageUrl2": "/images/sbresized.jpg",
       "buttonUrl": "https://drive.google.com/drive/folders/1W_4AbE0y8jDZ1u4k2ZRfHtOBAbgdBa_O?usp=sharing",
       "lineup": ["LARS HOOGLAND - Contrabas", "INGO NETTERSHEIM - Gitaar"],
-      "imageCredits": "\uD83D\uDCF7 by Paula Goldebeld"
+      "imageCredits": "\uD83D\uDCF7 Paula Goldebeld"
     },
     {
       "id": "hoogland-quartet",
@@ -53,7 +53,7 @@
       "imageUrl2": "/images/Hoogland5.jpg",
       "buttonUrl": "https://songwhip.com/larshoogland/yagan",
       "lineup": ["LARS HOOGLAND - Contrabas", "KRIS RANSIJN - Gitaar", "LUUK WITHAGEN - Drums"],
-      "imageCredits": "\uD83D\uDCF7 by Paula Goldebeld"
+      "imageCredits": "\uD83D\uDCF7 Paula Goldebeld"
     }
   ],
   "specialbands": [
