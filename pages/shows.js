@@ -17,7 +17,7 @@ import {format} from 'date-fns'
 
 
 const Shows = ({events}) => (
-    <Layout pagetype="agenda" imageCredits="📷 Veerle Bas">
+    <Layout pagetype="agenda" imageCredits="📷 Veerle Bastiaanssen">
         <div className={utilStyles.gridwrapper}>
             <Box>
                 <Timeline className={utilStyles.timeline} position="alternate">
