@@ -9,7 +9,7 @@ const ContentImage = ({title, linkUrl, imageUrl}) => (
                 <Image
                     src={imageUrl}
                     layout="fill"
-                    objectFit="contain"
+                    objectFit="cover"
                 />
                 <div className={utilStyles.blockcontainer}>
                     <h2 className={utilStyles.headingXl}>{title}</h2>

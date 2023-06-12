@@ -25,7 +25,7 @@ import {useState} from "react";
 
 const nav = [
     {url: '/', label: 'Home', icon: <HomeIcon/>},
-    {url: '/bands', label: 'Projecten', icon: <MusicNoteIcon/>},
+    {url: '/bands', label: 'Bands', icon: <MusicNoteIcon/>},
     {url: '/bio', label: 'Over', icon: <PersonIcon/>},
     {url: '/shows', label: 'Agenda', icon: <CalendarMonthIcon/>},
     {url: '/watch', label: 'Kijk', icon: <SmartDisplayIcon/>},

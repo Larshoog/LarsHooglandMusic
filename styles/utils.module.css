@@ -239,15 +239,11 @@
     .content{
         max-width: 100vw;
         padding: 0;
-        display: block;
     }
     .headingXl{
         font-size: 3rem;
     }
     .mobilemenu{
-        display: block;
-    }
-    .section {
         display: block;
     }
     .credits {
@@ -261,6 +257,12 @@
     }
     .timesep{
         display: none;
+    }
+    .gridwrapper{
+        flex-flow: column wrap;
+    }
+    .section{
+        flex-direction: column;
     }
 
 }
