@@ -14,7 +14,7 @@
 
 @media (max-width:600px) {
     .section{
-        gap: 1rem;
+        gap: 0rem;
         flex-direction: column;
     }
     .section:nth-child(even) {

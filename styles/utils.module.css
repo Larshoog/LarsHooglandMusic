@@ -260,9 +260,11 @@
     }
     .gridwrapper{
         flex-flow: column wrap;
+        gap: 0em;
     }
     .section{
         flex-direction: column;
     }
+
 
 }
