@@ -11,14 +11,20 @@ const opts = {
 };
 const Listen = () => (
     <Layout pagetype={"Luister"} imageCredits="📷 Veerle Bastiaanssen">
-       <div className={utilStyles.spotifycontainer}>
-        <iframe
-            className={utilStyles.spotify}
-            src="https://open.spotify.com/embed/playlist/7FRN9bwf5owU0ZEpVK3D3i?utm_source=generator"
+        <div className={utilStyles.spotifycontainer}>
+            <iframe
+                className={utilStyles.spotify}
+                src="https://open.spotify.com/embed/playlist/7FRN9bwf5owU0ZEpVK3D3i?utm_source=generator"
                 height="700" frameBorder="0" allowFullScreen=""
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                 loading="lazy"/>
-       </div>
+            {/*<iframe*/}
+            {/*    src="https://open.spotify.com/embed/album/2qqbYy3lbbkzRR43xHkNIG?utm_source=generator"*/}
+            {/*    className={utilStyles.spotify}*/}
+            {/*    height="700" frameBorder="0" allowFullScreen=""*/}
+            {/*    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"*/}
+            {/*    loading="lazy"/>*/}
+        </div>
     </Layout>
 )
 
