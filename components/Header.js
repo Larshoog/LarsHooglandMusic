@@ -69,7 +69,7 @@ const Header = ({ imageUrl, name, pagetype, imageCredits }) => {
                     >
                         <List>
                             {nav.map((navItem) => (
-                                <Link href={navItem.url} key={navItem.url}>
+                                <Link href={navItem.url} key={navItem.url} legacyBehavior>
                                     <ListItem disablePadding>
                                         <ListItemButton>
                                             <ListItemIcon>{navItem.icon}</ListItemIcon>
