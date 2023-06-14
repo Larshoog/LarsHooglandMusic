@@ -1,7 +1,5 @@
 import utilStyles from '../styles/utils.module.css'
-import InstagramIcon from '@mui/icons-material/Instagram'
-import FacebookIcon from '@mui/icons-material/Facebook'
-import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import { Facebook as FacebookIcon, Instagram as InstagramIcon, LinkedIn as LinkedInIcon } from '@mui/icons-material'
 import { Fab } from '@mui/material'
 
 const Footer = () => (

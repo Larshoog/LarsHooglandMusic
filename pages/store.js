@@ -1,6 +1,5 @@
 import Layout from '../components/Layout'
 import utilStyles from '../styles/utils.module.css'
-import Contentblock from '../components/Contentblock'
 import Section from '../components/Section'
 import ContentImage from '../components/ContentImage'
 

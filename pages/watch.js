@@ -1,14 +1,12 @@
+import YouTube from 'react-youtube'
 import Layout from '../components/Layout'
 import utilStyles from '../styles/utils.module.css'
-import Contentblock from '../components/Contentblock'
-import Section from '../components/Section'
-import ContentImage from '../components/ContentImage'
-import YouTube from 'react-youtube'
 
 const opts = {
     height: '423',
     width: '754',
 }
+
 const Watch = () => (
     <Layout pagetype={'kijk'} imageCredits="📷 Paula Goldebeld">
         <div className={utilStyles.tubewrapper}>

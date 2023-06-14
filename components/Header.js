@@ -1,26 +1,32 @@
-import styles from './layout.module.css'
+import {
+    CalendarMonth as CalendarMonthIcon,
+    Home as HomeIcon,
+    KeyboardArrowDown as KeyboardArrowDownIcon,
+    Mail as MailIcon,
+    Menu as MenuIcon,
+    MusicNote as MusicNoteIcon,
+    Person as PersonIcon,
+    SmartDisplay as SmartDisplayIcon,
+} from '@mui/icons-material'
+import {
+    Box,
+    Drawer,
+    Fab,
+    Grow,
+    IconButton,
+    List,
+    ListItem,
+    ListItemButton,
+    ListItemIcon,
+    ListItemText,
+} from '@mui/material'
 import Image from 'next/legacy/image'
+import Link from 'next/link'
+import * as React from 'react'
+import { useState } from 'react'
+import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import NavItem from './NavItem'
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown'
-import { Drawer, Fab, Grow, IconButton } from '@mui/material'
-import * as React from 'react'
-import Box from '@mui/material/Box'
-import List from '@mui/material/List'
-import ListItem from '@mui/material/ListItem'
-import ListItemButton from '@mui/material/ListItemButton'
-import ListItemIcon from '@mui/material/ListItemIcon'
-import ListItemText from '@mui/material/ListItemText'
-import CalendarMonthIcon from '@mui/icons-material/CalendarMonth'
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart'
-import HomeIcon from '@mui/icons-material/Home'
-import MusicNoteIcon from '@mui/icons-material/MusicNote'
-import MailIcon from '@mui/icons-material/Mail'
-import PersonIcon from '@mui/icons-material/Person'
-import SmartDisplayIcon from '@mui/icons-material/SmartDisplay'
-import Menu from '@mui/icons-material/Menu'
-import Link from 'next/link'
-import { useState } from 'react'
 
 const nav = [
     { url: '/', label: 'Home', icon: <HomeIcon /> },
@@ -58,7 +64,7 @@ const Header = ({ imageUrl, name, pagetype, imageCredits }) => {
             <Image priority src={imageUrl} layout="fill" alt={name} objectFit="cover" />
             <div className={utilStyles.mobilemenu}>
                 <IconButton color="secondary" variant="contained" aria-label="open drawer" onClick={toggleDrawer(true)}>
-                    <Menu />
+                    <MenuIcon />
                 </IconButton>
                 <Drawer anchor="left" open={drawerOpen} onClose={toggleDrawer(false)}>
                     <Box

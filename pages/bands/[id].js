@@ -1,12 +1,11 @@
+import YouTube from 'react-youtube'
 import Layout from '../../components/Layout'
 import utilStyles from '../../styles/utils.module.css'
-import bandInfo from '../../lib/data.json'
 import Section from '../../components/Section'
 import ContentImage from '../../components/ContentImage'
 import ContentText from '../../components/ContentText'
 import { getAllBandIds, getBandData } from '../../lib/projects'
 import Lineup from '../../components/Lineup'
-import YouTube from 'react-youtube'
 
 const opts = {
     height: '423',

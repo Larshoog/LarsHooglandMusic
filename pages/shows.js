@@ -1,6 +1,3 @@
-import Layout from '../components/Layout'
-import utilStyles from '../styles/utils.module.css'
-import { Piano as PianoIcon } from '@mui/icons-material'
 import { MusicNote as MusicIcon } from '@mui/icons-material'
 import {
     Timeline,
@@ -12,8 +9,9 @@ import {
     TimelineSeparator,
 } from '@mui/lab'
 import { Box, Typography } from '@mui/material'
-import bandInfo from '../lib/data.json'
 import { format } from 'date-fns'
+import Layout from '../components/Layout'
+import utilStyles from '../styles/utils.module.css'
 
 const Shows = ({ events }) => (
     <Layout pagetype="agenda" imageCredits="📷 Veerle Bastiaanssen">

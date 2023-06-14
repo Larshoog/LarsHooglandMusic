@@ -1,6 +1,6 @@
+import { createTheme, ThemeProvider } from '@mui/material'
 import React from 'react'
 import '../styles/global.css'
-import { createTheme, ThemeProvider } from '@mui/material'
 
 const theme = createTheme({
     palette: {

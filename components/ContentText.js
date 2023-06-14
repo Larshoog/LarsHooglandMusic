@@ -1,5 +1,5 @@
 import { Button } from '@mui/material'
-import MusicNoteIcon from '@mui/icons-material/MusicNote'
+import { MusicNote as MusicNoteIcon } from '@mui/icons-material'
 import Link from 'next/link'
 import utilStyles from '../styles/utils.module.css'
 

@@ -1,11 +1,14 @@
-import React from 'react'
 import { useForm, ValidationError } from '@formspree/react'
 import { Button } from '@mui/material'
-function ContactForm() {
+import React from 'react'
+
+const ContactForm = () => {
     const [state, handleSubmit] = useForm('mrgdgpag')
+
     if (state.succeeded) {
         return <p>Thank you for your message! We will contact you shortly.</p>
     }
+
     return (
         <form onSubmit={handleSubmit}>
             <label htmlFor="name">Full name</label>
@@ -23,7 +26,5 @@ function ContactForm() {
         </form>
     )
 }
-function App() {
-    return <ContactForm />
-}
-export default App
+
+export default ContactForm
