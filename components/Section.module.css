@@ -12,13 +12,12 @@
     flex: 1;
 }
 
-@media (max-width:600px) {
-    .section{
+@media (max-width: 600px) {
+    .section {
         gap: 0rem;
         flex-direction: column;
     }
     .section:nth-child(even) {
         flex-direction: column;
     }
-
 }
