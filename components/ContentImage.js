@@ -1,6 +1,6 @@
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 
 const ContentImage = ({ title, linkUrl, imageUrl }) => (
     <div className={utilStyles.content}>

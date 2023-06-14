@@ -1,5 +1,5 @@
 import styles from './layout.module.css'
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import utilStyles from '../styles/utils.module.css'
 import NavItem from './NavItem'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown'
