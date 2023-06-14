@@ -32,14 +32,14 @@ const Shows = ({events}) => (
                                 {format(new Date(event.date), 'dd MMM yyyy')}
                             </TimelineOppositeContent>
                             <TimelineSeparator className={utilStyles.timesep}>
-                                <TimelineConnector/>
+                                <TimelineConnector className={utilStyles.timesep} />
                                 <TimelineDot color="primary" className={utilStyles.timesep}>
                                     <MusicIcon/>
                                 </TimelineDot>
                                 <TimelineConnector/>
                             </TimelineSeparator >
                             <TimelineContent sx={{py: '12px', px: 2}}>
-                                <Typography variant="h4" component="span">{event.title}</Typography>
+                                <Typography variant="h5" component="span">{event.title}</Typography>
                                 {event.linkUrl && (
                                     <Typography><a href={event.linkUrl}>INFO AND TICKETS</a></Typography>
                                 )}
