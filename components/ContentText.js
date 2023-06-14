@@ -8,7 +8,7 @@ const ContentText = ({ title, text, buttonUrl, buttonText }) => (
         <h2 className={utilStyles.headingLg}>{title}</h2>
         {Array.isArray(text) ? text.map((t) => <p>{t}</p>) : text}
         <div className={utilStyles.buttoncontainer}>
-            <Link href={buttonUrl} passHref>
+            <Link href={buttonUrl} passHref legacyBehavior>
                 <Button size="large" variant="contained" color="primary" startIcon={<MusicNoteIcon />}>
                     <a>{buttonText}</a>
                 </Button>

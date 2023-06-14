@@ -1,5 +1,5 @@
 import styles from './layout.module.css'
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import utilStyles from '../styles/utils.module.css'
 import NavItem from './NavItem'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown'
@@ -69,7 +69,7 @@ const Header = ({ imageUrl, name, pagetype, imageCredits }) => {
                     >
                         <List>
                             {nav.map((navItem) => (
-                                <Link href={navItem.url} key={navItem.url}>
+                                <Link href={navItem.url} key={navItem.url} legacyBehavior>
                                     <ListItem disablePadding>
                                         <ListItemButton>
                                             <ListItemIcon>{navItem.icon}</ListItemIcon>
