@@ -1,11 +1,11 @@
-import Head from 'next/head';
-import styles from './layout.module.css';
-import Header from "./Header";
-import {useRouter} from "next/router";
-import Footer from "./Footer";
+import Head from 'next/head'
+import styles from './layout.module.css'
+import Header from './Header'
+import { useRouter } from 'next/router'
+import Footer from './Footer'
 
-const name = 'Lars Hoogland';
-export const siteTitle = 'Lars Hoogland Music';
+const name = 'Lars Hoogland'
+export const siteTitle = 'Lars Hoogland Music'
 
 const coverImgs = {
     '/': '/images/IMG_6515.jpg',
@@ -32,10 +32,14 @@ const Layout = ({ children, pagetype, imageCredits }) => {
         <div className={styles.container}>
             <Head>
                 <title>{siteTitle}</title>
-                <link rel="icon" href="/favicon.ico"/>
-                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                <link rel="icon" href="/favicon.ico" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
-            <Header pagetype={pagetype} imageUrl={coverImgs[router.asPath] ?? '/images/IMG_6515.jpg'} imageCredits={imageCredits}/>
+            <Header
+                pagetype={pagetype}
+                imageUrl={coverImgs[router.asPath] ?? '/images/IMG_6515.jpg'}
+                imageCredits={imageCredits}
+            />
             <main>
                 {children}
                 <Footer />
