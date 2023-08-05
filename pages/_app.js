@@ -1,18 +1,16 @@
-import React from 'react';
-import '../styles/global.css';
-import {createTheme, ThemeProvider} from "@mui/material";
-
-
+import { createTheme, ThemeProvider } from '@mui/material'
+import React from 'react'
+import '../styles/global.css'
 
 const theme = createTheme({
     palette: {
         primary: {
-            main: '#255957'
+            main: '#255957',
         },
         secondary: {
-            main: '#BCA371'
-        }
-    }
+            main: '#BCA371',
+        },
+    },
 })
 
 const App = ({ Component, pageProps }) => (

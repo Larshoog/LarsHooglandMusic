@@ -1,10 +1,8 @@
-import utilStyles from "../styles/utils.module.css";
-import Link from "next/link";
-import Image from "next/image";
+import utilStyles from '../styles/utils.module.css'
 
-const Lineup = ({title, text, buttonUrl}) => (
+const Lineup = ({ title, text, buttonUrl }) => (
     <div className={utilStyles.contentwide}>
-        <h2 className={utilStyles.headingLg}>{"Bezetting"}</h2>
+        <h2 className={utilStyles.headingLg}>{'Bezetting'}</h2>
         {Array.isArray(text) ? text.map((t) => <p>{t}</p>) : text}
     </div>
 )

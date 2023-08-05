@@ -18,15 +18,9 @@
       "imageUrl2": "/images/olivegreen.jpg",
       "imageUrl3": "/images/og.png",
       "buttonUrl": "https://www.youtube.com/watch?v=AG5KGnUlNpA",
-      "lineup": [
-        "LARS HOOGLAND - Contrabas",
-        "ELBRICH VAN STRALEN - Piano"
-      ],
+      "lineup": ["LARS HOOGLAND - Contrabas", "ELBRICH VAN STRALEN - Piano"],
       "imageCredits": "\uD83D\uDCF7 Paula Goldebeld",
-      "youtubeId": [
-        "AG5KGnUlNpA",
-        "j8nAt3hP9fc"
-      ]
+      "youtubeId": ["AG5KGnUlNpA", "j8nAt3hP9fc"]
     },
     {
       "id": "bebop-poetry",
@@ -50,27 +44,19 @@
         "RAFAEL SLORS - Drums"
       ],
       "imageCredits": "📷 Houcem Bellakoud",
-      "youtubeId": [
-        "0CNupWPZn9s"
-      ]
+      "youtubeId": ["0CNupWPZn9s"]
     },
     {
       "id": "lars-hoogland-trio",
       "name": "Lars Hoogland Trio",
-      "bio": [
-        "Coming soon!"
-      ],
+      "bio": ["Coming soon!"],
       "text": [
         "Gedreven door hun liefde voor post-bop, speelt het Lars Hoogland Trio verse arrangementen van hun favoriete nummers, samen met eigen composities. Het trio bestaat uit Luuk Withagen op drums, Lars Hoogland op bas, en Elbrich van Stralen op piano."
       ],
       "imageUrl": "/images/tpm1rand.jpg",
       "imageUrl2": "/images/tpm1resized.jpg",
       "buttonUrl": "https://www.instagram.com/stories/highlights/18011649949580662/",
-      "lineup": [
-        "LARS HOOGLAND - Contrabas",
-        "ELBRICH VAN STRALEN - Piano",
-        "LUUK WITHAGEN - Drums"
-      ],
+      "lineup": ["LARS HOOGLAND - Contrabas", "ELBRICH VAN STRALEN - Piano", "LUUK WITHAGEN - Drums"],
       "imageCredits": ""
     },
     {
@@ -85,10 +71,7 @@
       "imageUrl": "/images/sbresized.jpg",
       "imageUrl2": "/images/sbresized.jpg",
       "buttonUrl": "https://drive.google.com/drive/folders/1W_4AbE0y8jDZ1u4k2ZRfHtOBAbgdBa_O?usp=sharing",
-      "lineup": [
-        "LARS HOOGLAND - Contrabas",
-        "INGO NETTERSHEIM - Gitaar"
-      ],
+      "lineup": ["LARS HOOGLAND - Contrabas", "INGO NETTERSHEIM - Gitaar"],
       "imageCredits": "\uD83D\uDCF7 Paula Goldebeld"
     },
     {
@@ -125,9 +108,7 @@
     {
       "id": "artoise",
       "name": "Artoise Big Band",
-      "bio": [
-        "Coming soon!"
-      ],
+      "bio": ["Coming soon!"],
       "text": [
         "Artoise Big Band is a modern big band, incorporating both jazz, funk, soul and pop music in their performances. The band was formed during Lars' studies at Codarts, conservatory of Rotterdam."
       ],
@@ -148,28 +129,20 @@
     {
       "id": "kris-ransijn-trio",
       "name": "Kris Ransijn Trio",
-      "bio": [
-        "Coming soon!"
-      ],
+      "bio": ["Coming soon!"],
       "text": [
         "Kris Ransijn Trio bestaat uit drie jonge en gedreven muzikanten. Ze spelen verrassende en frisse composities, gebaseerd op ervaringen, gevoelens en muziekstijl van over de hele wereld."
       ],
       "imageUrl": "/images/IMG_9503.jpg",
       "imageUrl2": "/images/IMG_9488.jpg",
       "buttonUrl": "https://songwhip.com/larshoogland/yagan",
-      "lineup": [
-        "LARS HOOGLAND - Contrabas",
-        "KRIS RANSIJN - Gitaar",
-        "LUUK WITHAGEN - Drums"
-      ],
+      "lineup": ["LARS HOOGLAND - Contrabas", "KRIS RANSIJN - Gitaar", "LUUK WITHAGEN - Drums"],
       "imageCredits": "\uD83D\uDCF7 by Paula Goldebeld"
     },
     {
       "id": "between-the-lines",
       "name": "Between the Lines",
-      "bio": [
-        "Coming soon!"
-      ],
+      "bio": ["Coming soon!"],
       "text": [
         "Waan jezelf in de straten van New Orleans, middenin een van de second lines. Voel de groove en feest tot diep in de nacht mee met Between the Lines."
       ],
