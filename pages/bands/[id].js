@@ -7,13 +7,14 @@ import ContentText from "../../components/ContentText";
 import { getAllBandIds, getBandData } from "../../lib/projects";
 import Lineup from "../../components/Lineup";
 import YouTube from "react-youtube";
+import ContentTextButtonless from "../../components/Contentblock";
 
 const opts = {
     height: "423",
     width: "754",
 };
 
-const Bands = ({ id, name, bio, text, imageUrl, buttonUrl, lineup, imageUrl2, imageCredits, youtubeId }) => (
+const Bands = ({ id, name, bio, heading2, bio2, text, imageUrl, imageUrl3, buttonUrl, lineup, imageUrl2, imageCredits, youtubeId }) => (
     <Layout pagetype={name} imageCredits={imageCredits}>
         <div className={utilStyles.gridwrapper}>
             <Section>
@@ -29,6 +30,20 @@ const Bands = ({ id, name, bio, text, imageUrl, buttonUrl, lineup, imageUrl2, im
                     buttonText={"Luister hier!"}
                 />
             </Section>
+            {bio2 ?
+            <Section>
+                <ContentImage
+                    imageUrl={imageUrl3}
+                    linkUrl={buttonUrl}
+
+                />
+                <ContentTextButtonless
+                    title={heading2}
+                    text={bio2}
+                    buttonUrl={buttonUrl}
+                    buttonText={"Luister hier!"}
+                />
+            </Section> : <Section/>}
             {youtubeId ? youtubeId.map((t) =>
             <Section>
                 <div className={utilStyles.tubewrapper}>
