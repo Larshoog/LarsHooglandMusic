@@ -7,6 +7,7 @@ import ContentText from '../../components/ContentText'
 import { getAllBandIds, getBandData } from '../../lib/projects'
 import Lineup from '../../components/Lineup'
 import ContentTextButtonless from "../../components/Contentblock";
+import ContentCenterButtonless from "../../components/ContentCenterButtonless";
 
 const opts = {
     height: '423',
@@ -38,19 +39,13 @@ const Bands = ({ id, name, bio, heading2, bio2, text, imageUrl, imageUrl3, butto
                     linkUrl={buttonUrl}
 
                 />
-                <ContentTextButtonless
+                <ContentCenterButtonless
                     title={heading2}
                     text={bio2}
                     buttonUrl={buttonUrl}
                     buttonText={"Luister hier!"}
                 />
             </Section> : <Section/>}
-            {youtubeId ? youtubeId.map((t) =>
-            <Section>
-                <div className={utilStyles.tubewrapper}>
-                    <YouTube iframeClassName={utilStyles.yt} videoId={t} opts={opts}/>
-                </div>
-            </Section>) : <Section/>}
             <Section>
                 <Lineup text={lineup} />
             </Section>
