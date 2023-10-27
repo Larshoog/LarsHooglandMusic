@@ -8,6 +8,7 @@ import { getAllBandIds, getBandData } from '../../lib/projects'
 import Lineup from '../../components/Lineup'
 import ContentTextButtonless from "../../components/Contentblock";
 import ContentCenterButtonless from "../../components/ContentCenterButtonless";
+import ContentCenterGigs from "../../components/ContentCenterGigs";
 
 const opts = {
     height: '423',
@@ -21,6 +22,20 @@ const Bands = ({ id, name, bio, heading2, bio2, text, imageUrl, imageUrl3, butto
                 <ContentImage imageUrl={imageUrl2} linkUrl={buttonUrl} />
                 <ContentText title={name} text={bio} buttonUrl={buttonUrl} buttonText={'Luister hier!'} />
             </Section>
+            {bio2 ?
+                <Section>
+                    <ContentImage
+                        imageUrl={imageUrl3}
+                        linkUrl={buttonUrl}
+
+                    />
+                    <ContentCenterGigs
+                        title={heading2}
+                        text={bio2}
+                        buttonUrl={buttonUrl}
+                        buttonText={"Luister hier!"}
+                    />
+                </Section> : <Section/>}
             {youtubeId ? (
                 youtubeId.map((t) => (
                     <Section>
@@ -32,20 +47,6 @@ const Bands = ({ id, name, bio, heading2, bio2, text, imageUrl, imageUrl3, butto
             ) : (
                 <Section />
             )}
-            {bio2 ?
-            <Section>
-                <ContentImage
-                    imageUrl={imageUrl3}
-                    linkUrl={buttonUrl}
-
-                />
-                <ContentCenterButtonless
-                    title={heading2}
-                    text={bio2}
-                    buttonUrl={buttonUrl}
-                    buttonText={"Luister hier!"}
-                />
-            </Section> : <Section/>}
             <Section>
                 <Lineup text={lineup} />
             </Section>
